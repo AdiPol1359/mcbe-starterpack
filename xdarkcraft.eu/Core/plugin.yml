@@ -1,0 +1,5 @@
+name: Core
+main: Core\Main
+author: xStrixU
+version: 1.0
+api: 3.0.0

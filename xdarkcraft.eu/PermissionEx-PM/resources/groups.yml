@@ -1,0 +1,19 @@
+---
+groups:
+  guest:
+    default: true
+    rank: 0
+    parents: []
+    format: "§8[§b{GROUP}§8] §a{DISPLAYNAME}§7: §e{MESSAGE}"
+    nametag: "§8[§b{GROUP}§8] §a{DISPLAYNAME}"
+    permissions:
+    - guest.group.permissions
+  vip:
+    default: false
+    rank: 1
+    parents:
+    - guest
+    format: "§8[§6{GROUP}§8] §a{DISPLAYNAME}§7: §e{MESSAGE}"
+    permissions:
+    - vip.group.permissions
+...

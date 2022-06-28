@@ -1,0 +1,26 @@
+name: PermissionEx-PM
+main: permissionex\Main
+author: xStrixU
+version: 1.0
+api: 3.0.0
+
+permissions:
+ pex.command:
+   default: op
+   description: Allow to use all pex commands
+   children:
+     pex.command.general:
+       default: op
+       description: Allow to use general pex commands
+       pex.command.reset:
+       default: op
+       description: Allow to reset plugin
+     pex.command.set:
+       default: op
+       description: Allow to use set pex commands
+     pex.command.users:
+       default: op
+       description: Allow to use users commands
+     pex.command.groups:
+       default: op
+       description: Allow to use groups commands

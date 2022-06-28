@@ -1,0 +1,84 @@
+---
+defaultForm: menu
+
+forms:
+  menu:
+    title: Menu
+    buttons:
+    - text: Kupno bloków
+      image:
+        type: path
+        data: textures/blocks/brick
+      onClick:
+        send: bloki
+    - text: Kupno narzedzi
+      image:
+        type: path
+        data: textures/items/diamond_shovel
+      onClick:
+        send: narzedzia
+        
+  bloki:
+    title: Kupno bloków
+    buttons:
+    - text: "Obsydian\nKoszt: 16 emeraldów"
+      image:
+        type: path
+        data: textures/blocks/obsidian
+      onClick:
+       send: bloki
+       buy:
+         payItem: "388:0:16"
+         buyItem: "49:0:64"
+         notEnoughMessage: "Nie masz wystarzajacej ilosci szmaragdow!"
+         successMessage: "Pomyslnie zakupiono obsydian w ilosci 64"
+    - text: "Beacon\nKoszt: 64 emeraldy"
+      image:
+        type: path
+        data: textures/blocks/beacon
+      onClick:
+       send: bloki
+       buy:
+         payItem: "388:0:64"
+         buyItem: "138:0:1"
+         notEnoughMessage: "Nie masz wystarzajacej ilosci szmaragdow!"
+         successMessage: "Pomyslnie zakupiono beacona"
+    - text: Cofnij
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: menu
+        
+  narzedzia:
+    title: Kupno narzędzi
+    buttons:
+    - text: "Lopata\nKoszt: 16 emeraldów"
+      image:
+        type: path
+        data: textures/items/diamond_shovel
+      onClick:
+       send: narzedzia
+       buy:
+         payItem: "388:0:16"
+         buyItem: "277:0:1"
+         notEnoughMessage: "Nie masz wystarzajacej ilosci szmaragdow!"
+         successMessage: "Pomyslnie zakupiono łopate"
+    - text: "Miecz\nKoszt: 16 emeraldów"
+      image:
+        type: path
+        data: textures/items/diamond_sword
+      onClick:
+       send: narzedzia
+       buy:
+         payItem: "388:0:16"
+         buyItem: "276:0:1"
+         notEnoughMessage: "Nie masz wystarzajacej ilosci szmaragdow!"
+         successMessage: "Pomyslnie zakupiono miecz"
+    - text: Cofnij
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: menu
+...

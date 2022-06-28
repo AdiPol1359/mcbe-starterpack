@@ -1,0 +1,117 @@
+---
+groups:
+  gracz:
+    rank: 0
+    parents: []
+    permissions: []
+    format: '&8[&f{PKT}&8] &8[&c{GUILD}&8] &7{DISPLAYNAME}&8: &7{MESSAGE}'
+    default: true
+  vip:
+    rank: 3
+    parents:
+    - gracz
+    permissions:
+    - nicecraft.kit.vip
+    - nicecraft.command.ec
+    - nicecraft.command.repair
+    - nicecraft.drop.40
+    - nicecraft.gildie.vip
+    - nicecraft.homes.3
+    - nicecraft.tp.7
+    - nicecraft.spam.7
+    format: '&8[&f{PKT}&8] &8[&6VIP&8] &8[&c{GUILD}&8] &7{DISPLAYNAME}&8: &6{MESSAGE}'
+  svip:
+    rank: 4
+    parents:
+    - vip
+    permissions:
+    - nicecraft.kit.svip
+    - nicecraft.kit.tnt
+    - nicecraft.command.feed
+    - nicecraft.drop.50
+    - nicecraft.gildie.svip
+    - nicecraft.ec.large
+    - nicecraft.homes.5
+    - nicecraft.tp.5
+    - nicecraft.command.enchant
+    - nicecraft.spam.5
+    format: '&8[&f{PKT}&8] &8[&5SVIP&8] &8[&c{GUILD}&8] &7{DISPLAYNAME}&8: &5{MESSAGE}'
+  sponsor:
+    rank: 5
+    parents:
+    - svip
+    permissions:
+    - nicecraft.kit.sponsor
+    - nicecraft.command.heal
+    - nicecraft.drop.70
+    - nicecraft.gildie.sponsor
+    - nicecraft.spawn.fly
+    - nicecraft.homes.8
+    - nicecraft.command.particlesy
+    format: '&8[&f{PKT}&8] &8[&2Sponsor&8] &8[&c{GUILD}&8] &7{DISPLAYNAME}&8: &2{MESSAGE}'
+  yt:
+    rank: 1
+    parents:
+    - gracz
+    permissions:
+    - nicecraft.kit.yt
+    - nicecraft.command.repair
+    - nicecraft.gildie.vip
+    - nicecraft.tp.7
+    format: '&8[&f{PKT}&8] &8[&fY&cT&8] &8[&c{GUILD}&8] &7{DISPLAYNAME}&8: &f{MESSAGE}'
+  yt+:
+    rank: 2
+    parents:
+    - yt
+    permissions:
+    - nicecraft.kit.yt+
+    - nicecraft.command.ec
+    - nicecraft.drop.40
+    - nicecraft.gildie.svip
+    - nicecraft.tp.5
+    format: '&8[&f{PKT}&8] &8[&fY&cT&6+&8] &8[&c{GUILD}&8] &7{DISPLAYNAME}§8: &f{MESSAGE}'
+  ch:
+    rank: 6
+    parents:
+    - gracz
+    permissions:
+    format: '&8[&f{PKT}&8] &8[&5CH&8] &8[&c{GUILD}&8] &f{DISPLAYNAME}§8: &f{MESSAGE}'
+  h:
+    rank: 7
+    parents:
+    - ch
+    permissions:
+
+     format: '&8[&f{PKT}&8] &8[&1Pomocnik&8] &8[&c{GUILD}&8] &7{DISPLAYNAME}§8: &1{MESSAGE}'
+  a:
+    rank: 9
+    parents: []
+    permissions: []
+    format: '§8[§cAdmin§8] &r&7{DISPLAYNAME}§8: &c{MESSAGE}'
+    nametag: '&l&cADMIN &r&7{DISPLAYNAME}'
+  h@:
+    rank: 10
+    parents: []
+    permissions: []
+    format: ' §8[§4HeadAdmin§8] §7{DISPLAYNAME}§8: §4{MESSAGE}'
+    nametag: '&l&4HeadAdmin &r&7{DISPLAYNAME}'
+  root:
+    rank: 11
+    parents: []
+    permissions: []
+    format: '&l& §8[§4ROOT§8] §7{DISPLAYNAME}§8: §4{MESSAGE}'
+    nametag: '&l&4ROOT &r&7{DISPLAYNAME}'
+  particlesy:
+    rank: 0
+    parents: []
+    permissions:
+    - nicecraft.command.particlesy
+  m:
+    rank: 8
+    parents:
+    - h
+    permissions:
+   - LightPE.command.daj
+    format: '§8[§aModerator§8] §7{DISPLAYNAME}§8: §a{MESSAGE}'
+    nametag: '§aModerator &r&7{DISPLAYNAME}'
+...
