@@ -1,6 +1,0 @@
-name: ohCode_AntyLog
-version: 1.2.0
-api: [1.12.0]
-author: ohCode
-main: Lambo\CombatLogger\Main
-description: Nie logaj stivie

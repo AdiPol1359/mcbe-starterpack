@@ -1,7 +1,0 @@
----
-log-tofile: false
-show-passwords: false
-commands-censored: say,tell
-commands-ignored:
-words-banned:
-...

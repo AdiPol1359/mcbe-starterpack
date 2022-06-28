@@ -1,7 +1,0 @@
----
-branches: master
-projects:
-  NoTell:
-    path: ""
-    model: default
-...

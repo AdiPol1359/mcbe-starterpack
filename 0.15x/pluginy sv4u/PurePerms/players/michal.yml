@@ -1,7 +1,0 @@
----
-userName: michal
-group: gracz
-permissions:
-- '*'
-worlds: []
-...

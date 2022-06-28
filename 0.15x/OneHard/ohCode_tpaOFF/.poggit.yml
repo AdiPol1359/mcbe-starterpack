@@ -1,8 +1,0 @@
----
-branches: master
-projects:
-  NoTell:
-    path: ""
-    icon: notell.png
-    model: default
-...

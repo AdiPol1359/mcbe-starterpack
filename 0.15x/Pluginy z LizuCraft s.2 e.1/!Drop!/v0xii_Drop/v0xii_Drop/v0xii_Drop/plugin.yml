@@ -1,7 +1,0 @@
-name: Drop
-main: drop\Main
-api:
-- 1.13.1
-- 2.0.0
-version: 1.1.0
-author: XFanta

@@ -1,9 +1,0 @@
-name: NicePE_Serce
-main: NicePE_Serce\Main
-author: xStrixU
-version: 1.0
-api: 2.0.0
-
-commands:
-  serce:
-    description: Komenda na dodatkowe serce

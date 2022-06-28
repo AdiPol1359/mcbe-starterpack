@@ -1,7 +1,0 @@
----
-sell:
-- §2[Sprzedaz]
-- '%MONETARY_UNIT%%1'
-- '%2'
-- '§4ilosc : §l%3'
-...

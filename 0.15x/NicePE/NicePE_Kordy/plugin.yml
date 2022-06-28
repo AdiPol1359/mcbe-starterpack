@@ -1,9 +1,0 @@
-name: NicePE_Kordy
-main: NicePE_Kordy\Main
-author: xStrixU
-version: 1.0
-api: 2.0.0
-
-commands:
-  kordy:
-    description: Komenda do włączania/wyłączania kordów

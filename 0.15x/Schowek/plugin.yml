@@ -1,9 +1,0 @@
-name: Schowek
-main: xStrixU\Main
-api: 2.0.0
-version: 1.0.0
-author: xStrixU
-
-commands:
- schowek:
-  description: "Komenda na schowek"

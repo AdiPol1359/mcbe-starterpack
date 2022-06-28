@@ -1,1 +1,0 @@
-a:1:{s:12:"budujezpasji";i:870;}

@@ -1,4 +1,0 @@
-#Elo The Player Starts With
-Starting-Elo: 1000
-Lose-Elo-onDeath: true
-Get-Elo-On-Kill: true

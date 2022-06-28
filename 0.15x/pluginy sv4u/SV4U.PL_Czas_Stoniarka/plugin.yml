@@ -1,6 +1,0 @@
-name: THC.PL_Czas_Stoniarka
-author: kozak
-description: Simple plugin for create endless stone with any dropping items whatever you want! Fully customizable
-version: 1.3.3.7
-main: kozak\Main
-api: [2.0.0]

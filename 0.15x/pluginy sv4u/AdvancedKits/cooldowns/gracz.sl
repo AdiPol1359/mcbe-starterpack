@@ -1,1 +1,0 @@
-a:1:{s:10:"nametenkox";i:1;}
