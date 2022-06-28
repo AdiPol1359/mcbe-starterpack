@@ -1,0 +1,9 @@
+name: POLISHMC_Losowanie
+main: POLISHMC_Losowanie\Main
+author: xStrixU
+version: 1.0
+api: 3.0.0
+
+commands:
+  losowanie:
+    description: Komenda losowanie

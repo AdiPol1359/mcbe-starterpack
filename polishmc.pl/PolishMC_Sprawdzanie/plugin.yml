@@ -1,0 +1,9 @@
+name: PolishMC_Sprawdzanie
+main: PolishMC_Sprawdzanie\Main
+author: xStrixU
+version: 1.0
+api: 3.0.0
+
+commands:
+  sprawdzanie:
+    description: Komenda sprawdzanie

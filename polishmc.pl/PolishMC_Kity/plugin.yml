@@ -1,0 +1,9 @@
+name: PolishMC_Kity
+main: PolishMC_Kity\Main
+author: xStrixU
+version: 1.2
+api: 3.0.0
+
+commands:
+  kit:
+    description: Komenda kit

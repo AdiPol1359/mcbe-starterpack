@@ -1,0 +1,9 @@
+name: PolishMC_Allert
+main: PolishMC_Allert\Main
+author: xStrixU
+version: 1.0
+api: 3.0.0
+
+commands:
+  allert:
+    description: Komenda allert

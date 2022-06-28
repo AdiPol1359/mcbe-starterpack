@@ -1,0 +1,9 @@
+name: PolishMC_Scale
+main: PolishMC_Scale\Main
+author: xStrixU
+version: 1.0
+api: 3.0.0
+
+commands:
+  scale:
+    description: Komenda scale

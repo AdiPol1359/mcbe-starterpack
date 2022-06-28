@@ -1,0 +1,9 @@
+name: PolishMC_TNT
+main: PolishMC_TNT\Main
+author: xStrixU
+version: 1.0
+api: 3.0.0
+
+commands:
+  tnt:
+    description: Komenda tnt

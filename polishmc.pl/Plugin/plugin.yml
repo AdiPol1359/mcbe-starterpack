@@ -1,0 +1,9 @@
+name: LosoweTP
+author: boniarski
+main: boniarski\WildTP\Main
+api: [1.14.0, 2.0.0]
+version: 0.0.1
+commands:
+ losowe:
+  usage: /losowe
+  description: Teleportuje w losowe miejsce
