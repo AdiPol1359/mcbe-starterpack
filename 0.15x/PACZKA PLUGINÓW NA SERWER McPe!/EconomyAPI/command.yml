@@ -1,0 +1,20 @@
+---
+setmoney:
+- setmoney
+seemoney:
+- seemoney
+monety:
+- mymoney
+zaplac:
+- pay
+givemoney:
+- givemoney
+topmoney:
+- topmoney
+setlang:
+- setlang
+takemoney:
+- takemoney
+mystatus:
+- mystatus
+...

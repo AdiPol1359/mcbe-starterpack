@@ -1,0 +1,22 @@
+name: PureChat
+main: _64FF00\PureChat\PureChat
+version: "1.3.3"
+api: [1.11.0]
+load: STARTUP
+author: 64FF00
+website: https://github.com/PurePlugins/PureChat
+depend: [PurePerms]
+softdepend: [FactionsPro]
+permissions:
+  pchat:
+    description: "PureChat by 64FF00! (Twitter: @64FF00)"
+    children:
+      pchat.colored:
+        description: "Allows the players to get colored chat formats, nametags, and etc."
+        children:
+          pchat.colored.chat:
+            description: "Allows the players to use color codes"
+          pchat.colored.format:
+            description: "Allows the players to use colored chat formats"       
+          pchat.colored.nametag:
+            description: "Allows the players to use colored nametags"               

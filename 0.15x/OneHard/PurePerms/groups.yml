@@ -1,0 +1,166 @@
+---
+gracz:
+  isDefault: true
+  inheritance: []
+  permissions:
+  - -essentials.afk
+  - -pocketmine.command.afk
+  - -pocketmine.command.me
+  - -pocketmine.command.version
+  - advancedkits.start
+  - chattoolspro.report
+  - craft.item
+  - essentials.delhome.use
+  - essentials.getpos.use
+  - essentials.home.use
+  - essentials.sethome.use
+  - essentials.tpa
+  - essentials.tpaccept.use
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - resetuj.resetuj
+  - top.command
+  worlds:
+    world:
+      permissions: []
+moderator:
+  inheritance:
+  - gracz
+  - chatchelper
+  - helper
+  permissions:
+  - admin.yt
+  - chattoolspro.report
+  - darmowe.darmowe
+  - essentials.ban
+  - essentials.colorchat
+  - essentials.fly.use
+  - essentials.god.use
+  - mcpebase.b
+  - pocketmine.command.ban
+  - pocketmine.command.ban.ip
+  - pocketmine.command.kick
+  - pocketmine.command.pardon
+  - pocketmine.command.pardon.ip
+  - pocketmine.command.teleport.use
+  - simleauth.command.login
+  - simleauth.command.register
+wlasciciel:
+  inheritance:
+  - gracz
+  - moderator
+  - administrator
+  - helper
+  permissions:
+  - chattoolspro.report
+  - essentials
+  - gejmod.uzyj
+  - pocketmine.command
+  - pperms.command
+  - simleauth.command.login
+  - simleauth.command.register
+svip:
+  inheritance:
+  - gracz
+  permissions:
+  - craft.item
+  - essentials.back
+  - essentials.colorchat
+  - essentials.near
+  - essentials.repair
+  - essentials.tpahere
+  - gildie.darmowe
+  - pocketmine.command.list
+  - premium.dostep.chat
+  - svip.dostep.chat
+  - top.command
+vip:
+  inheritance:
+  - gracz
+  permissions:
+  - craft.item
+  - essentials.colorchat
+  - essentials.repair
+  - essentials.sign.color
+  - essentials.tpahere
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - premium.dostep.chat
+  - top.command
+  - vip.dostep.chat
+helper:
+  inheritance:
+  - gracz
+  - chathelper
+  permissions:
+  - -pocketmine.command.say
+  - admin.dostep.chat
+  - admin.yt
+  - antycheat.admin
+  - chat.dostep
+  - chattoolspro.clearchat
+  - chattoolspro.lockchat
+  - clearchat.clearchat
+  - clearlagg
+  - craft.item
+  - essentials.colorchat
+  - essentials.fly.use
+  - essentials.god.other
+  - essentials.god.use
+  - essentials.mute
+  - essentials.mute.use
+  - essentials.tempban
+  - essentials.tp
+  - essentials.vanish.use
+  - ip.ip
+  - lag.command.lag
+  - mcpebase.b
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.teleport.use
+  - pocketmine.command.time.set
+  - simleauth.command.login
+  - simleauth.command.register
+  - spam.bypass
+  - start.edycja
+  - stoniarka.sponsor
+  - top.command
+  worlds:
+    world:
+      permissions: []
+yt:
+  inheritance:
+  - gracz
+  - vip
+  permissions:
+  - essentials.back
+  - essentials.colorchat
+  - pocketmine.command.list
+  - premium.dostep.chat
+  - top.command
+  worlds:
+    world:
+      permissions:
+      - advancedkits.vip
+      - advancedkits.vip
+administrator:
+  isDefault: false
+  inheritance:
+  - gracz
+  - helper
+  - chathelper
+  - moderator
+  permissions:
+  - chattoolspro.report
+  - essentials.colorchat
+  - essentials.tempban
+  - gejmod.uzyj
+ohcode:
+  isDefault: false
+  inheritance: []
+  permissions:
+  - '*'
+  worlds: []
+...

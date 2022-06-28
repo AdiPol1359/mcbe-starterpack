@@ -1,0 +1,13 @@
+---
+replace words: "true"
+Replacement Message: Im a Fuckboi!
+Blocked words:
+- fuck
+- dick
+- cunt
+- fag
+- faggit
+- fuk
+- fgt
+interval: 10
+...

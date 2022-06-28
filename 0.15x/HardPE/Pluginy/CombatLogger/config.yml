@@ -1,0 +1,10 @@
+# The period of time that a player cannot logout for after damaging/getting damaged by another player
+interval: 10
+# Blocked commands
+blocked-commands:
+    - /spawn
+    - /home
+    - /tpa
+    - /g dom
+    - /warp
+    - /back

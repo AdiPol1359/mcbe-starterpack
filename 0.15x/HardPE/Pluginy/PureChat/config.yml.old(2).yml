@@ -1,0 +1,45 @@
+---
+enable-multiworld-support: false
+custom-no-fac-message: '...'
+groups:
+  Gracz:
+    default-chat: '• [[{faction}]]{COLOR_WHITE} [Gracz] {display_name}: {message} •' 
+    default-nametag: '{COLOR_GRAY}[Gracz] {COLOR_WHITE} {display_name}'
+    worlds: []
+  Wlasciciel:
+    default-chat: '{COLOR_RED}• [Właściciel] {display_name}{COLOR_RED}: {message} •' 
+    default-nametag: '{COLOR_RED}[Wlasciciel] {display_name}'
+    worlds: []
+  VIP:
+    default-chat: '{COLOR_YELLOW}• [[{faction}]] [VIP] {display_name}: {message} •' 
+    default-nametag: '{COLOR_YELLOW}[VIP] {display_name}' 
+    worlds: []
+  Moderator:
+    default-chat: '{COLOR_GREEN}• [[{faction}]] [Moderator] {display_name}: {message} •'
+    default-nametag: '{COLOR_GREEN}[Moderator] {display_name}' 
+    worlds: []
+  SVIP:
+    default-chat: '{COLOR_GOLD}• [[{faction}]] [{COLOR_RED}S{COLOR_GOLD}VIP{COLOR_GOLD}] {display_name}: {message} •' 
+    default-nametag: '{COLOR_GOLD} [SVIP] {display_name}'
+    worlds: []
+  ULTRAVIP:
+    default-chat: '{COLOR_AQUA}• [[{faction}]] {COLOR_GOLD} [{COLOR_RED}U{COLOR_GOLD}VIP{COLOR_GOLD}] {display_name}: {message} •' 
+    default-nametag: '{COLOR_GOLD}[UVIP] {COLOR_GOLD}] {display_name}'
+    worlds: []
+  yt:
+    default-chat: '{COLOR_WHITE}• [[{faction}]] [{COLOR_RED}You{COLOR_WHITE}Tube] {display_name}{COLOR_WHITE}: {message} •' 
+    default-nametag: '{COLOR_WHITE}[{faction}] {display_name}'
+    worlds: []
+  sponsor:
+    default-chat: '{COLOR_DARK_GREEN}• {COLOR_DARK_GREEN}[[{faction}]] {COLOR_DARK_GREEN}[Pomocnik] {display_name}: {message} •' 
+    default-nametag: '{COLOR_DARK_GREEN}[Pomocnik]{COLOR_DARK_GREEN} {display_name}'
+    worlds: []
+  admin:
+    default-chat: '{COLOR_AQUA}• {COLOR_AQUA}[[{faction}]] {COLOR_AQUA}[Admin] {display_name}: {message} •' 
+    default-nametag: '{COLOR_AQUA}[Admin]{COLOR_AQUA} {display_name}'
+    worlds: []
+  Wlasciciell:
+    default-chat: '{COLOR_RED}• [[{faction}]] [Właściciel] {display_name}{COLOR_RED}: {message} •' 
+    default-nametag: '{COLOR_RED}[Wlasciciel] {display_name}'
+    worlds: []
+...

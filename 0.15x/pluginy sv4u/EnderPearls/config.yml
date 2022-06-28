@@ -1,0 +1,7 @@
+---
+enderpearl-sound: true
+enderpearl-id: 378
+change-item-name: true
+change-name-to: '&dEnderpearl'
+use-damage: 4
+...

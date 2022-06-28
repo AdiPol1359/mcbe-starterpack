@@ -1,0 +1,266 @@
+name: NicePE_Core
+main: NicePE_Core\Main
+version: 1.0.0
+api: 2.0.0
+commands:
+ cobblex:
+  description: "Informacje o Cobblex"
+ vip:
+  description: "Informacje o randze VIP"
+ svip:
+  description: "Informacje o randze SVIP"
+ sponsor:
+  description: "Informacje o randze SPONSOR"
+ swagger:
+  description: "Informacje o randze SWAGGER"
+ yt:
+  description: "Informacje o randze YT"
+ yt+:
+  description: "Informacje o randze YT+"
+ sms:
+  description: "Informacje o kupnie przez SMS"
+ nicki:
+  description: "Informacje o Nickach"
+ regulamin:
+  description: "Regulamin serwera"
+ premiumcase:
+  description: "Informacje o kupnie PremiumCase"
+ pomoc:
+  description: "Komendy serwera"
+ rangi:
+  description: "Rangi serwera"
+ limit:
+  description: "Limit serwera"
+ administracja:
+  description: "Administracja serwera"
+ cc:
+  description: "Komenda do czyszcenia chatu"
+ zbanuj:
+  description: "Komenda do zbanowania"
+ zbanuj-ip:
+  description: "Komenda do zbanowania na IP"
+ odbanuj:
+  description: "Komenda do odbanowania"
+ daj:
+  description: "Komenda do dania"
+ voucher:
+  aliases: [vo]
+ sk:
+  aliases: [skoczek]
+ miecz:
+  aliases: [mieczyk]
+ pandora:
+  description: "Uzyj: /pandora"
+  aliases: [case, pc]
+ pcase:
+  description: "Mozliwosc dania danemu graczu premiumcase"
+ pall:
+  description: "Mozliwosc dania calemu serwerowi pandor"
+ drop:
+  description: "Komenda na drop"
+ rzucak:
+  description: "Informacje o rzucakach"
+ stoniarka:
+  description: "Komenda na kupno stoniarki"
+ latanie:
+  description: "Komenda na wlaczanie lub wylaczanie fly"
+ efekt:
+  aliases: [efekty]
+ enderpearl:
+  description: "setting of EnderPearl"
+  usage: "/enderpearl <key> <value>"
+  permission: enderpearl.setting
+permissions:
+ enderpearl.*:
+  description: Allows player to use all permissions
+  children:
+   enderpearl.setting:
+    default: op
+    description: Allows player to edit EnderPearl config
+   enderpearl.teleport:
+    default: true
+    description: Allows player to teleport by using EnderPearl
+ chattoolspro:
+  description: Â§aChatToolsPro Help
+  usage: "/ctp <1/2/3/4>."
+  aliases: [ctp]
+  permission: chattoolspro.ctp
+ checkop:
+  description: Â§aCheck if a Player is OP or not.
+  usage: "/checkop <Player>."
+  permission: chattoolspro.checkop
+ helpme:
+  description: Â§aAdds [NeedsHelp] Tag to a Name
+  usage: "/helpme."
+  permission: chattoolspro.helpme
+ suport:
+  description: Â§aBroadcasts a Message as [Support]
+  usage: "/support <Message>."
+  aliases: [supportsay, saysupport]
+  permission: chattoolspro.supportsay
+ uwaga:
+  description: Â§aBroadcasts a Message as [Warning]
+  usage: "/warning <Message>."
+  aliases: [warnsay]
+  permission: chattoolspro.warning
+ ogoszenie:
+  description: Â§aBroadcasts a Message as [Announcement]
+  usage: "/announcement."
+  aliases: [sayannounce]
+  permission: chattoolspro.announcement
+ alarm:
+  description: Â§aBroadcasts a Message as [ALERT]
+  usage: "/alert <Message>."
+  aliases: [alertsay]
+  permission: chattoolspro.alert
+ informacja:
+  description: Â§aBroadcasts a Message as [Info]
+  usage: "/info <Message>."
+  aliases: [infosay]
+  permission: chattoolspro.info
+ done:
+  description: Â§aRemoves [NeedsHelp] Tag from a Name
+  aliases: [donehelp]
+  usage: "/helpdone."
+  permission: chattoolspro.done
+ serversay:
+  description: Â§aBroadcasts a Message as [Server]
+  usage: "/serversay."
+  aliases: [sayserver]
+  permission: chattoolspro.serversay
+ staffsay:
+  description: Â§aBroadcasts a Message as [Staff]
+  usage: "/staffsay."
+  aliases: [saystaff]
+  permission: chattoolspro.staffsay
+ warn:
+  description: Â§cWarns a Player
+  usage: "/warn <Player> <Reason>."
+  permission: chattoolspro.warn
+ vmsg:
+  description: Â§aSends an anonymous Message to a Player without the Sender Name
+  usage: "/vmsg <Player> <Message>."
+  permission: chattoolspro.vmsg
+ chatsay:
+  description: Â§aBroadcast a Message without any Tag
+  usage: "/chatsay <Message>."
+  permission: chattoolspro.chatsay
+ tipgive:
+  description: Â§a Give an Player a Tip
+  usage: "/tipgive <Player> <Tip>."
+  permission: chattoolspro.tipgive
+ setnick:
+  description: Â§aSets an Nick
+  usage: "/setnick <Nick>."
+  permission: chattoolspro.setnick
+ delnick:
+  description: Â§aDelete Nick of yourself or another Player
+  usage: "/delnick [Player]."
+  permission: chattoolspro.del
+ spam:
+  description: Â§aSpam
+  usage: "/spam."
+  permission: chattoolspro.spam
+ sayas:
+  description: Â§aSend a Message as another Player
+  usage: "/sayas <Player> <Message>."
+  permission: chattoolspro.sayas
+ spammsg:
+  description: Â§aSend a Message to another Player more times at once
+  usage: "/spammsg <Player> <Message>."
+  permission: chattoolspro.spammsg
+ spamsay:
+  description: Â§aSpams a Message into the chat
+  usage: "/spamsay <Message>."
+  permission: chattoolspro.spamsay
+ cc:
+  description: Â§aClears the Chat.
+  usage: "/cc."
+  permission: hydro.adm
+ hug:
+  description: Â§aHug a Player.
+  usage: "/hug <Player>."
+  permission: chattoolspro.hug
+ opfake:
+  description: Â§aFake op a Player.
+  usage: "/opfake <Player>."
+  permission: chattoolspro.opfake
+ deopfake:
+  description: Â§aFake Deop a Player.
+  usage: "/deopfake <Player>."
+  permission: chattoolspro.deopfake
+ zglos:
+  description: Â§aReport a Player
+  usage: "/report <Player> <Reason>."
+  permission: hydro.gracz
+ ops:
+  description: Â§aSee online OP's by a List
+  usage: "/ops"
+  permission: chattoolspro.ops
+ chat:
+  description: Â§aSee online OP's
+  usage: "/chat <on/off>"
+  permission: hydro.adm
+ illuminati:
+  description: Â§aIlluminati Message
+  usage: "/illuminati."
+  permission: chattoolspro.illuminati
+permissions:
+ chattoolspro.ctp:
+  default: op
+ chattoolspro.helpme:
+  default: op
+ chattoolspro.done:
+  default: op
+ chattoolspro.announcement:
+  default: op
+ chattoolspro.serversay:
+  default: op
+ chattoolspro.staffsay:
+  default: op
+ chattoolspro.support:
+  default: op
+ chattoolspro.warning:
+  default: op
+ chattoolspro.warn:
+  default: op
+ chattoolspro.vmsg:
+  default: op
+ chattoolspro.chatsay:
+  default: op
+ chattoolspro.alert:
+  default: op
+ chattoolspro.info:
+  default: op
+ chattoolspro.tipgive:
+  default: op
+ chattoolspro.setnick:
+  default: op
+ chattoolspro.delnick:
+  default: op
+ chattoolspro.sayas:
+  default: op
+ chattoolspro.report:
+  default: op
+ chattoolspro.ops:
+  default: op
+ chattoolspro.spam:
+  default: op
+ chattoolspro.clearchat:
+  default: op
+ chattoolspro.hug:
+  default: op
+ chattoolspro.spammsg:
+  default: op
+ chattoolspro.spamsay:
+  default: op
+ chattoolspro.opfake:
+  default: op
+ chattoolspro.deopfake:
+  default: op
+ chattoolspro.checkop:
+  default: op
+ chattoolspro.lockchat:
+  default: op
+ chattoolspro.illuminati:
+  default: op

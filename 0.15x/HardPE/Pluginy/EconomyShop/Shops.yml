@@ -1,0 +1,452 @@
+---
+-57:65:445:Mapa1.7.2:
+  x: -57
+  "y": 65
+  z: 445
+  level: Mapa1.7.2
+  price: 2000
+  item: 264
+  itemName: Diamond
+  meta: 0
+  amount: 1
+-57:65:447:Mapa1.7.2:
+  x: -57
+  "y": 65
+  z: 447
+  level: Mapa1.7.2
+  price: 250
+  item: 265
+  itemName: Iron Ingot
+  meta: 0
+  amount: 1
+-57:65:449:Mapa1.7.2:
+  x: -57
+  "y": 65
+  z: 449
+  level: Mapa1.7.2
+  price: 250
+  item: 266
+  itemName: Gold Ingot
+  meta: 0
+  amount: 1
+-57:65:451:Mapa1.7.2:
+  x: -57
+  "y": 65
+  z: 451
+  level: Mapa1.7.2
+  price: 1000
+  item: 388
+  itemName: Emerald
+  meta: 0
+  amount: 1
+-57:65:453:Mapa1.7.2:
+  x: -57
+  "y": 65
+  z: 453
+  level: Mapa1.7.2
+  price: 200
+  item: 331
+  itemName: Redstone
+  meta: 0
+  amount: 16
+-65:65:455:Mapa1.7.2:
+  x: -65
+  "y": 65
+  z: 455
+  level: Mapa1.7.2
+  price: 7500
+  item: 116
+  itemName: Enchanting Table
+  meta: 0
+  amount: 1
+-65:65:453:Mapa1.7.2:
+  x: -65
+  "y": 65
+  z: 453
+  level: Mapa1.7.2
+  price: 2500
+  item: 379
+  itemName: Brewing Stand
+  meta: 0
+  amount: 1
+-65:65:449:Mapa1.7.2:
+  x: -65
+  "y": 65
+  z: 449
+  level: Mapa1.7.2
+  price: 2500
+  item: 49
+  itemName: Obsidian
+  meta: 0
+  amount: 32
+-57:65:455:Mapa1.7.2:
+  x: -57
+  "y": 65
+  z: 455
+  level: Mapa1.7.2
+  price: 150
+  item: 263
+  itemName: Coal
+  meta: 0
+  amount: 16
+-64:59:451:Mapa1.7.2:
+  x: -64
+  "y": 59
+  z: 451
+  level: Mapa1.7.2
+  price: 100
+  item: 371
+  itemName: Gold Nugget
+  meta: 0
+  amount: 10
+-64:59:453:Mapa1.7.2:
+  x: -64
+  "y": 59
+  z: 453
+  level: Mapa1.7.2
+  price: 100
+  item: 396
+  itemName: Golden Carrot
+  meta: 0
+  amount: 1
+-63:59:448:Mapa1.7.2:
+  x: -63
+  "y": 59
+  z: 448
+  level: Mapa1.7.2
+  price: 100
+  item: 372
+  itemName: Nether Wart
+  meta: 0
+  amount: 1
+-61:59:448:Mapa1.7.2:
+  x: -61
+  "y": 59
+  z: 448
+  level: Mapa1.7.2
+  price: 500
+  item: 377
+  itemName: Blaze Powder
+  meta: 0
+  amount: 1
+-64:59:449:Mapa1.7.2:
+  x: -64
+  "y": 59
+  z: 449
+  level: Mapa1.7.2
+  price: 200
+  item: 374
+  itemName: Glass Bottle
+  meta: 0
+  amount: 5
+-64:59:455:Mapa1.7.2:
+  x: -64
+  "y": 59
+  z: 455
+  level: Mapa1.7.2
+  price: 100
+  item: 382
+  itemName: Glistering Melon
+  meta: 0
+  amount: 1
+-59:59:448:Mapa1.7.2:
+  x: -59
+  "y": 59
+  z: 448
+  level: Mapa1.7.2
+  price: 100
+  item: 376
+  itemName: Fermented Spider Eye
+  meta: 0
+  amount: 1
+87:65:15:Swamp House:
+  x: 87
+  "y": 65
+  z: 15
+  level: Swamp House
+  price: 2000
+  item: 264
+  itemName: Diamond
+  meta: 0
+  amount: 1
+87:65:17:Swamp House:
+  x: 87
+  "y": 65
+  z: 17
+  level: Swamp House
+  price: 250
+  item: 265
+  itemName: Iron Ingot
+  meta: 0
+  amount: 1
+87:65:19:Swamp House:
+  x: 87
+  "y": 65
+  z: 19
+  level: Swamp House
+  price: 250
+  item: 266
+  itemName: Gold Ingot
+  meta: 0
+  amount: 1
+87:65:21:Swamp House:
+  x: 87
+  "y": 65
+  z: 21
+  level: Swamp House
+  price: 1000
+  item: 388
+  itemName: Emerald
+  meta: 0
+  amount: 1
+84:65:26:Swamp House:
+  x: 84
+  "y": 65
+  z: 26
+  level: Swamp House
+  price: 7500
+  item: 116
+  itemName: Enchanting Table
+  meta: 0
+  amount: 1
+82:65:26:Swamp House:
+  x: 82
+  "y": 65
+  z: 26
+  level: Swamp House
+  price: 3000
+  item: 379
+  itemName: Brewing Stand
+  meta: 0
+  amount: 1
+80:65:26:Swamp House:
+  x: 80
+  "y": 65
+  z: 26
+  level: Swamp House
+  price: 250
+  item: 47
+  itemName: Bookshelf
+  meta: 0
+  amount: 10
+78:65:26:Swamp House:
+  x: 78
+  "y": 65
+  z: 26
+  level: Swamp House
+  price: 1000
+  item: 49
+  itemName: Obsidian
+  meta: 0
+  amount: 16
+76:65:26:Swamp House:
+  x: 76
+  "y": 65
+  z: 26
+  level: Swamp House
+  price: 200
+  item: 17
+  itemName: Oak Wood
+  meta: 0
+  amount: 16
+80:65:13:Swamp House:
+  x: 80
+  "y": 65
+  z: 13
+  level: Swamp House
+  price: 100
+  item: 372
+  itemName: Nether Wart
+  meta: 0
+  amount: 1
+82:65:13:Swamp House:
+  x: 82
+  "y": 65
+  z: 13
+  level: Swamp House
+  price: 100
+  item: 376
+  itemName: Fermented Spider Eye
+  meta: 0
+  amount: 1
+87:65:16:Swamp House:
+  x: 87
+  "y": 65
+  z: 16
+  level: Swamp House
+  price: 200
+  item: 331
+  itemName: Redstone
+  meta: 0
+  amount: 16
+87:65:20:Swamp House:
+  x: 87
+  "y": 65
+  z: 20
+  level: Swamp House
+  price: 100
+  item: 371
+  itemName: Gold Nugget
+  meta: 0
+  amount: 10
+87:65:22:Swamp House:
+  x: 87
+  "y": 65
+  z: 22
+  level: Swamp House
+  price: 200
+  item: 318
+  itemName: Flint
+  meta: 0
+  amount: 1
+87:65:24:Swamp House:
+  x: 87
+  "y": 65
+  z: 24
+  level: Swamp House
+  price: 250
+  item: 289
+  itemName: Gunpowder
+  meta: 0
+  amount: 1
+83:65:13:Swamp House:
+  x: 83
+  "y": 65
+  z: 13
+  level: Swamp House
+  price: 100
+  item: 378
+  itemName: Magma Cream
+  meta: 0
+  amount: 1
+78:65:13:Swamp House:
+  x: 78
+  "y": 65
+  z: 13
+  level: Swamp House
+  price: 150
+  item: 396
+  itemName: Golden Carrot
+  meta: 0
+  amount: 1
+77:65:13:Swamp House:
+  x: 77
+  "y": 65
+  z: 13
+  level: Swamp House
+  price: 100
+  item: 382
+  itemName: Glistering Melon
+  meta: 0
+  amount: 1
+87:65:25:Swamp House:
+  x: 87
+  "y": 65
+  z: 25
+  level: Swamp House
+  price: 250
+  item: 262
+  itemName: Arrow
+  meta: 0
+  amount: 32
+77:65:26:Swamp House:
+  x: 77
+  "y": 65
+  z: 26
+  level: Swamp House
+  price: 200
+  item: 364
+  itemName: Steak
+  meta: 0
+  amount: 16
+83:65:26:Swamp House:
+  x: 83
+  "y": 65
+  z: 26
+  level: Swamp House
+  price: 100
+  item: 4
+  itemName: Cobblestone
+  meta: 0
+  amount: 32
+79:65:13:Swamp House:
+  x: 79
+  "y": 65
+  z: 13
+  level: Swamp House
+  price: 150
+  item: 348
+  itemName: Glowstone Dust
+  meta: 0
+  amount: 10
+87:65:23:Swamp House:
+  x: 87
+  "y": 65
+  z: 23
+  level: Swamp House
+  price: 300
+  item: 20
+  itemName: Glass
+  meta: 0
+  amount: 32
+12:64:-21:Swamp House:
+  x: 12
+  "y": 64
+  z: -21
+  level: Swamp House
+  price: 0
+  item: 297
+  itemName: Bread
+  meta: 0
+  amount: 8
+87:65:18:Swamp House:
+  x: 87
+  "y": 65
+  z: 18
+  level: Swamp House
+  price: 200
+  item: 263
+  itemName: Charcoal
+  meta: 1
+  amount: 10
+81:65:13:Swamp House:
+  x: 81
+  "y": 65
+  z: 13
+  level: Swamp House
+  price: 100
+  item: 375
+  itemName: Spider Eye
+  meta: 0
+  amount: 1
+84:65:13:Swamp House:
+  x: 84
+  "y": 65
+  z: 13
+  level: Swamp House
+  price: 250
+  item: 377
+  itemName: Blaze Powder
+  meta: 0
+  amount: 1
+76:65:13:Swamp House:
+  x: 76
+  "y": 65
+  z: 13
+  level: Swamp House
+  price: 100
+  item: 370
+  itemName: Unknown
+  meta: 0
+  amount: 1
+81:65:26:Swamp House:
+  x: 81
+  "y": 65
+  z: 26
+  level: Swamp House
+  price: 1000
+  item: 89
+  itemName: Glowstone
+  meta: 0
+  amount: 8
+...

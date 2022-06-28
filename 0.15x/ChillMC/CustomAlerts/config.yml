@@ -1,0 +1,89 @@
+---
+datetime-format: "H:i:s"
+Motd:
+  update-timeout: 1
+  custom: false
+  message: "ustaw w properties"
+OutdatedClient:
+  custom: false
+  message: "&cYour MCPE client is outdated!"
+OutdatedServer:
+  custom: true
+  message: "&cOops! Server outdated!"
+WhitelistedServer:
+  custom: true
+  message: " &8» &l&eBIALA LISTA // START: Niedlugo &8«"
+FullServer:
+  custom: true
+  message: "&e{PLAYER}&b, The Server is full &c[{TOTALPLAYERS}/{MAXPLAYERS}]&b!\n&l&dTry to join later :)"
+FirstJoin:
+  enable: true
+  message: ""
+Join:
+  hide: true
+  custom: true
+  message: "&f• &8[&2+&8] &7{PLAYER} &f•"
+Quit:
+  hide: true
+  custom: true
+  message: "&f• &8[&4-&8] &7{PLAYER} &f•"
+WorldChange:
+  enable: false
+  message: "&2[{TIME}] &a{PLAYER}&e moved from &c{ORIGIN}&e to &a{TARGET}"
+Death:
+  hide: true
+  custom: true
+  message: "&c{PLAYER} died"
+  death-contact-message:
+    hide: true
+    custom: true
+    message: "&cOops! {PLAYER} was killed by {BLOCK}"
+  kill-message:
+    hide: false
+    custom: true
+    message: "&f• &c{PLAYER} &7został zabity przez &c{KILLER} &f•"
+  death-projectile-message:
+    hide: false
+    custom: true
+    message: "&f• &c{PLAYER} &7został zabity przez &c{KILLER} &f•"
+  death-suffocation-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} suffocated"
+  death-fall-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} fell from a high place"
+  death-fire-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} went up in flames"
+  death-on-fire-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} burned"
+  death-lava-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} tried to swim in lava"
+  death-drowning-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} drowned"
+  death-explosion-message:
+    hide: tue
+    custom: true
+    message: "&c{PLAYER} exploded"
+  death-void-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} fell into the void"
+  death-suicide-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} committed suicide"
+  death-magic-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} was killed by a spell"
+...

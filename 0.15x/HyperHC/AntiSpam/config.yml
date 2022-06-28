@@ -1,0 +1,30 @@
+---
+#time in seconds a player has to wait to send a message again
+time: 1
+#max warnings a player will receive until they receive a block type
+max_warnings: 2
+#warn player each time they spam
+warning_message: "&ePlease stop chatting too quick! &cWarnings:&6 %warns%"
+#What type of block do you want?
+#Types: message, mute, kick, ban, ban-ip
+block_type: kick
+#how much time should the player be muted (in seconds)
+mute_time: 60
+#message when player gets muted
+mute_message: "&cYou have been muted for spamming."
+#message when player is still muted
+muted_message: "&eYou are still muted."
+un-muted_message: "&aYou have been unmuted! &bDo not spam, or you will be muted again."
+#Reason why player was kicked
+#%player% = players name
+kick_reason: "&cYou have been kicked for spamming."
+#Reason why player was banned
+#%player% = players name
+ban_reason: "&4You have been banned for spamming!"
+#Reason why player was ip-banned
+#%player% = players name
+ip_ban_reason: "&4You have been ip banned for spamming!"
+#message that will be sent if player is spamming
+#%player% = players name
+message: "&aPlease let others chat, thank you. :)"
+...

@@ -1,0 +1,127 @@
+
+# PurePerms by 64FF00 (xktiverz@gmail.com, @64ff00 for Twitter)
+
+---
+messages-version: "1.2.0"
+language: "en"
+cmds:
+  addgroup:
+    desc: "Adds a new group to the groups list. #64FF00"
+    usage: "Usage: /addgroup <group>"
+    messages:
+      group_added_successfully: "Added %var0% to the group list successfully."
+      group_already_exists: "Group %var0% already exists."
+      invalid_group_name: "Invalid Group Name."
+  defgroup:
+    desc: "Allows you to set default group. #64FF00"
+    usage: "Usage: /defgroup <group>"
+    messages:
+      defgroup_successfully: "Default group has been successfully set to %var0%."
+      group_not_exist: "Group %var0% does NOT exist."
+  fperms:
+    desc: "Shows a list of all permissions for a specific plugin. #64FF00"
+    usage: "Usage: /fperms <plugin>"
+    messages:
+      no_plugin_perms: "Plugin %var0% doesn't have any permissions."
+      plugin_not_exist: "Plugin %var0% does NOT exist."
+      plugin_perms_list: "List of all plugin permissions from %var0% (%var1% / %var2%) : "
+  groups:
+    desc: "Shows a list of all groups. #64FF00"
+    messages:
+      all_registered_groups: "All registered groups: %var0%"
+  listgperms: 
+    desc: "Shows a list of all permissions from a group. #64FF00"
+    usage: "Usage: /listgperms <group> <page> [world]"
+    messages:
+      group_not_exist: "Group %var0% does NOT exist."
+      group_perms_list: "List of all group permissions from %var0% (%var1% / %var2%) : "
+      level_not_exist: "World %var0% does NOT exist."
+      no_group_perms: "Group %var0% doesn't have any group permissions."
+  listuperms: 
+    desc: "Shows a list of all permissions from a user. #64FF00"
+    usage: "Usage: /listuperms <player> <page> [world]"
+    messages:
+      level_not_exist: "World %var0% does NOT exist."
+      no_user_perms: "Player %var0% doesn't have any user permissions."
+      user_perms_list: "List of all user permissions from %var0% (%var1% / %var2%) : " 
+  ppinfo: 
+    desc: "Get current PurePerms information including author, version, and etc. #64FF00"
+    messages:
+      ppinfo_console: "You are currently using PurePerms v%var0% by %var1%."
+      ppinfo_player: "This server is using PurePerms v%var0% by %var1%."
+  ppreload: 
+    desc: "Reloads all PurePerms configurations. #64FF00"
+    messages: 
+      successfully_reloaded: "All plugin configurations have been successfully reloaded."
+  rmgroup: 
+    desc: "Removes a group from the groups list. #64FF00"
+    usage: "Usage: /rmgroup <group>"
+    messages:
+      group_removed_successfully: "Removed %var0% from the group list successfully."
+      group_not_exist: "Group %var0% does NOT exist."
+      invalid_group_name: "Invalid Group Name."
+  setgperm: 
+    desc: "Adds a permission to the group. #64FF00"
+    usage: "Usage: /setgperm <group> <permission> [world]"
+    messages:
+      gperm_added_successfully: "Added permission %var0% to the group successfully."
+      group_not_exist: "Group %var0% does NOT exist."
+      level_not_exist: "World %var0% does NOT exist."
+  setgroup: 
+    desc: "Sets group for the user. #64FF00"
+    usage: "Usage: /setgroup <player> <group> [world]"
+    messages: 
+      group_not_exist: "Group %var0% does NOT exist."
+      level_not_exist: "World %var0% does NOT exist."
+      setgroup_successfully: "Added %var0% to the group successfully."
+      on_player_group_change: "Your group has been changed to a / an %var0%!"
+  setuperm: 
+    desc: "Adds a permission to the user. #64FF00"
+    usage: "Usage: /setuperm <player> <permission> [world]"
+    messages:
+      level_not_exist: "World %var0% does NOT exist."
+      uperm_added_successfully: "Added permission %var0% to %var1% successfully."
+  unsetgperm: 
+    desc: "Removes a permission from the group. #64FF00"
+    usage: "Usage: /unsetgperm <group> <permission> [world]"
+    messages:
+      gperm_removed_successfully: "Removed permission %var0% from the group successfully."
+      group_not_exist: "Group %var0% does NOT exist."
+      level_not_exist: "World %var0% does NOT exist."
+  unsetuperm: 
+    desc: "Removes a permission from the user. #64FF00"
+    usage: "Usage: /unsetuperm <player> <permission> [world]"
+    messages: 
+      level_not_exist: "World %var0% does NOT exist."
+      uperm_removed_successfully: "Removed permission %var0% from %var1% successfully."
+  usrinfo: 
+    desc: "Shows info about a user. #64FF00"
+    usage: "Usage: /usrinfo <player> [world]"
+    messages:
+      level_not_exist: "World %var0% does NOT exist."
+      status_online: "ONLINE!"
+      status_offline: "OFFLINE..."
+      usrinfo_header: "-- User Information for %var0% --"
+      usrinfo_username: "USERNAME: %var0%"
+      usrinfo_status: "STATUS: %var0%"
+      usrinfo_ip: "IP: %var0%"
+      usrinfo_uuid: "UNIQUE ID: %var0%"
+      usrinfo_group: "GROUP: %var0%"
+      unknown: "UNKNOWN"
+logger_messages:
+  getConfigValue_01: "Key %var0% not found in config.yml."
+  getDefaultGroup_01: "More than one default group was declared in the groups file."
+  getDefaultGroup_02: "No default group was found in the groups file."
+  getDefaultGroup_03: "Setting the default group automatically."
+  getGroup_01: "Group %var0% not found"
+  getGroup_02: "Group %var0% has invalid or corrupted data"
+  onEnable_01: "Multiworld support is currently disabled."
+  onEnable_02: "Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!"
+  onEnable_03: "Multiworld support enabled."
+  registerPlayer: "Registering player %var0%..."
+  setProvider_MySQL: "Set data provider to MySQL."
+  setProvider_SQLite3: "Set data provider to SQLite3."
+  setProvider_YAML: "Set data provider to YAML."
+  setProvider_NotFound: "Provider %var0% does NOT exist. Setting the data provider to default."
+  unregisterPlayer: "Unregistering player %var0%..."
+...

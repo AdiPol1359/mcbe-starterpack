@@ -1,0 +1,7 @@
+entity:
+  not-spawn: []
+  explodeMone: "none" #none, onlyEntity, cancelled
+autoclear:
+  turn-on: true
+  tick: 6000
+  entities: [Projectile, DroppedItem]

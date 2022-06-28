@@ -1,0 +1,6 @@
+name: Stoniarka/Edit by xSmoothy
+author: xSmoothy
+description: Simple plugin for create endless stone with any dropping items whatever you want! Fully customizable
+version: 2.1
+main: xSmoothy\Main
+api: [1.13.0]

@@ -1,0 +1,19 @@
+name: FactionsPro
+author: xSmoothy
+description: A Plugin For Easily Managing Guilds
+version: 1.3.2
+main: FactionsPro\FactionMain
+api:
+- 1.14.0
+- 2.0.0
+commands:
+  guilds:
+    description: use /guilds help for all parameters
+    permission: f.command
+  g:
+    description: use /guilds help for all parameters
+    permission: f.command
+permissions:
+  f.command:
+    default: true
+    description: "Allow use of all guilds commands"

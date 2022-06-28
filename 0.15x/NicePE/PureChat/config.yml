@@ -1,0 +1,81 @@
+---
+enable-multiworld-support: false
+custom-no-fac-message: §
+groups:
+  gracz:
+    default-chat: §8• §8[§f{pkt}§8] §c{faction} §7{display_name} §8» §7{message} §8•
+    default-nametag: §8[§f{pkt}§8] §c{faction} §7{display_name}
+  yt:
+    default-chat: §8• §8[§f{pkt}§8] §c{faction} §8[§fY§cT§8] §7{display_name §8» §7{message}
+      §8•
+    default-nametag: §8[§f{pkt}§8] §c{faction} §8[§fY§cT§8] §7{display_name}
+  yt+:
+    default-chat: §8• §8[§f{pkt}§8] §c{faction} §8[§fY§cT§6+§8] §7{display_name} §8»
+      §7{message} §8•
+    default-nametag: §8[§f{pkt}§8] §c{faction} §8[§fY§cT§6+§8] §7{display_name}
+  vip:
+    default-chat: §8• §8[§f{pkt}§8] §c{faction} §8[§6VIP§8] §7{display_name} §8» §7{message}
+      §8•
+    default-nametag: §8[§f{pkt}§8] §c{faction} §8[§6VIP§8] §7{display_name}
+  svip:
+    default-chat: §8• §8[§f{pkt}§8] §c{faction} §8[§eSVIP§8] §7{display_name} §8»
+      §7{message} §8•
+    default-nametag: §8[§f{pkt}§8] §c{faction} §8[§eSVIP§8] §7{display_name}
+  sponsor:
+    default-chat: §8• §8[§f{pkt}§8] §c{faction} §8[§9SPONSOR§8] §7{display_name} §8»
+      §7{message} §8•
+    default-nametag: §8[§f{pkt}§8] §c{faction} §8[§9SPONSOR§8] §7{display_name}
+  swagger:
+    default-chat: §8• §8[§f{pkt}§8] §c{faction} §8[§4S§cW§6A§eG§fG§aE§2R§8] §7{display_name}
+      §8» §7{message} §8•
+    default-nametag: §8[§f{pkt}§8] §c{faction} §8[§4S§cW§6A§eG§fG§aE§2R§8] §7{display_name}
+  ch:
+    default-chat: §8• §8[§f{pkt}§8] §c{faction} §8[§5CH§8] §7{display_name} §8» §f{message}
+      §8•
+    default-nametag: §8[§f{pkt}§8] §c{faction} §8[§5CH§8] §7{display_name}
+  p:
+    default-chat: §8• §8[§f{pkt}§8] §c{faction} §8[§aP§8] §7{display_name} §8» §f{message}
+      §8•
+    default-nametag: §8[§f{pkt}§8] §c{faction} §8[§aP§8] §7{display_name}
+  m:
+    default-chat: §8• §8[§2M§8] §a{display_name} §8» §2{message} §8•
+    default-nametag: §8[§2M§8] §a{display_name}
+  a:
+    default-chat: §8• §8[§4A§8] §c{display_name} §8» §4{message} §8•
+    default-nametag: §8[§4A§8] §c{display_name}
+  ha:
+    default-chat: §8• §8[§4HA§8] §c{display_name} §8» §4{message} §8•
+    default-nametag: §8[§4HA§8] §c{display_name}
+  t:
+    default-chat: §8• §8[§5T§8] §d{display_name} §8» §6{message} §8•
+    default-nametag: §8[§5T§8] §d{display_name}
+  w:
+    default-chat: §8• §8[§4W§8] §c{display_name} §8» §4{message} §8•
+    default-nametag: §8[§4W§8] §c{display_name}
+  Guest:
+    default-chat: '{COLOR_YELLOW}{FORMAT_BOLD}[Guest]{COLOR_WHITE}{FORMAT_RESET} {display_name}
+      {COLOR_GRAY}> {message}'
+    default-nametag: '{COLOR_YELLOW}{FORMAT_BOLD}[Guest]{COLOR_WHITE}{FORMAT_RESET}
+      {display_name}'
+    worlds: []
+  Admin:
+    default-chat: '{COLOR_AQUA}{FORMAT_BOLD}[Admin]{COLOR_WHITE}{FORMAT_RESET} {display_name}
+      {COLOR_GRAY}> {message}'
+    default-nametag: '{COLOR_AQUA}{FORMAT_BOLD}[Admin]{COLOR_WHITE}{FORMAT_RESET}
+      {display_name}'
+    worlds: []
+  Owner:
+    default-chat: '{COLOR_BLUE}{FORMAT_BOLD}[Owner]{COLOR_WHITE}{FORMAT_RESET} {display_name}
+      {COLOR_GRAY}> {message}'
+    default-nametag: '{COLOR_BLUE}{FORMAT_BOLD}[Owner]{COLOR_WHITE}{FORMAT_RESET}
+      {display_name}'
+    worlds: []
+  OP:
+    default-chat: '{COLOR_GREEN}{FORMAT_BOLD}[OP]{COLOR_WHITE}{FORMAT_RESET} {display_name}
+      {COLOR_GRAY}> {message}'
+    default-nametag: '{COLOR_BLUE}{FORMAT_BOLD}[OP]{COLOR_WHITE}{FORMAT_RESET} {display_name}'
+    worlds: []
+  §5§lSEXIAK:
+    default-nametag: '[§5§lSEXIAK] {display_name}'
+    default-chat: '[§5§lSEXIAK] {display_name} > {message}'
+...

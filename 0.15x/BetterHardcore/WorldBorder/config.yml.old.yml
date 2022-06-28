@@ -1,0 +1,8 @@
+---
+worldborder: "on"
+message: This is end of world
+worlds:
+- world: "5000"
+- world: "5000"
+- world: "7000"
+...

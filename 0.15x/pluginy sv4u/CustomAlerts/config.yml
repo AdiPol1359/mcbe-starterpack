@@ -1,0 +1,91 @@
+---
+datetime-format: "H:i:s"
+Motd:
+  update-timeout: 1
+  custom: true
+  message: "§c•SV4U - Serwer MegaDrop•"
+OutdatedClient:
+  custom: false
+  message: "&cTwoja Wersja MCPE jest stara!"
+OutdatedServer:
+  custom: false
+  message: "&cOops! Serwer na wersje 0.15.4!"
+WhitelistedServer:
+  custom: true
+  message: "&a• START I EDYCJI Dzis  GODZINA 19:30 Przepraszamy :( Dostaniecie nagrody!! ! •"
+FullServer:
+  custom: true
+  message: "&f{PLAYER}&f Serwer jest pełny &c[{TOTALPLAYERS}/{MAXPLAYERS}]"
+FirstJoin:
+  enable: true
+  message: "
+§5•
+× Witamy Pierwszy raz na serwerze Gracza × §4° {PLAYER} ° §5•"
+Join:
+  hide: true
+  custom: false
+  message: "§8[§a+§8]§a {PLAYER}§8 •"
+Quit:
+  hide: true
+  custom: false
+  message: "&8[§4-§8]§4 {PLAYER}§8 •"
+WorldChange:
+  enable: false
+  message: "&2[{TIME}] &a{PLAYER}&e moved from &c{ORIGIN}&e to &a{TARGET}"
+Death:
+  hide: false
+  custom: true
+  message: "&4{PLAYER} §7Umarł •"
+  death-contact-message:
+    hide: false
+    custom: true
+    message: "&cGracz! {PLAYER} został/a zabity przez {BLOCK}"
+  kill-message:
+    hide: false
+    custom: true
+    message: "&c{KILLER} &7Zabił/a &c{PLAYER}§7 •"
+  death-projectile-message:
+    hide: false
+    custom: true
+    message: "&4{PLAYER} §7Został Zabity/a Przez §4{KILLER} Z Łuku §7 •"
+  death-suffocation-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} Udusił Się"
+  death-fall-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} &7Spadł/a z Wysokości §7• "
+  death-fire-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} Spalił/a Się"
+  death-on-fire-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} Umarł/a W Ogniu"
+  death-lava-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} Spłonąl w Lavie"
+  death-drowning-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} drowned"
+  death-explosion-message:
+    hide: false
+    custom: true
+    message: "&4{PLAYER} §7Umarł/a Przez TNT :/ •"
+  death-void-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} fell into the void"
+  death-suicide-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} committed suicide"
+  death-magic-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} Umarł/a Przez Pote"
+...

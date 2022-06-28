@@ -1,0 +1,30 @@
+
+# Available types:
+#   - broadcast
+#   - block
+#   - kick
+type: kick
+# The message that will send
+# You can use {player} to mention their name
+message: '{RED}• Nie reklamuj innych serwerów! •'
+# Blocked domain names
+domain:
+  - ".pl"
+  - ".com"
+  - ".net"
+# The domains that allowed to use
+allowed.domain:
+  - "pvp.hardpe.pl"
+  - "sb.hardpe.pl"
+# If true, it will detect a sign
+detect.sign: true
+# Lines that will change if player advertise on sign
+lines:
+  - '============='
+  - 'Nie Reklamuj!'
+  - '============='
+  - ''
+# The command that will protected from advertising
+blocked.cmd:
+  - "/msg"
+  - "/tell"

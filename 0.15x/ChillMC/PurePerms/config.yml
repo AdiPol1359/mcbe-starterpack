@@ -1,0 +1,36 @@
+
+# PurePerms by 64FF00 (xktiverz@gmail.com, @64ff00 for Twitter)
+
+---
+# Set default data provider for PurePerms
+# - yaml, sqlite3
+data-provider: yaml
+
+# Set the default language for PurePerms
+# - en, ko, jp, ru, it, sp, cz, sk, de
+# English message resource by @64FF00 and @Samueljh1 (GitHub)
+# Korean message resource by @64FF00 (GitHub)
+# 제 블로그 이외에 허락없이 마음대로 플러그인 배포하실 시에는 바로 한국어 파일 삭제 조치하고 공유 중단합니다
+# Japanese message resource by @onebone (<3) and @haniokasai (GitHub)
+# Russian message resource by @vvzar and @Pub4Game (GitHub)
+# Italian message resource by @AryToNeX (GitHub)
+# Spanish message resource by @iksaku (<3) and @JoahDave (Github)
+# Czech message resource by @Michael2010117 (GitHub)
+# Slovak message resource by @Michael2010117 (GitHub)
+# German message resource by @Exxarion (GitHub)
+default-language: en
+
+# Setting this option will allow you to use per-world permissions
+# - true / false
+enable-multiworld-perms: false
+
+# // NOT FINISHED YET
+# MySQL Settings (Only configure this if you are going to use MySQL data provider)
+#mysql-settings:
+  # Thank you for 100k downloads btw... Love you all <3 #64FF00
+  #host: "PurePerms-FTW.loveyou.all"
+  #port: 3306
+  #user: "YourUsernameGoesHere"
+  #password: "YourPasswordGoesHere"
+  #db: "YourDBNameGoesHere"
+...

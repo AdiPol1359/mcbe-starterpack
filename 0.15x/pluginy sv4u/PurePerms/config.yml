@@ -1,0 +1,16 @@
+---
+data-provider: yaml
+default-language: en
+enable-multiworld-perms: false
+disable-op: true
+enable-noeul-sixtyfour: false
+mysql-settings:
+  host: PurePerms-FTW.loveyou.all
+  port: 3306
+  user: YourUsernameGoesHere
+  password: YourPasswordGoesHere
+  db: YourDBNameGoesHere
+noeul-minimum-pw-length: 6
+superadmin-ranks:
+- OP
+...

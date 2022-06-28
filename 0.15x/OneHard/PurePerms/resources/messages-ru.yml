@@ -1,0 +1,129 @@
+
+# PurePerms by 64FF00 (xktiverz@gmail.com, @64ff00 for Twitter)
+
+# Russian language resource by @vvzar and @Pub4Game 
+
+---
+messages-version: "1.2.0"
+language: "ru"
+cmds:
+  addgroup:
+    desc: "Добавляет новую группу в список групп. #64FF00"
+    usage: "Пример: /addgroup <группа>"
+    messages:
+      group_added_successfully: "Группа %var0% успешно создана."
+      group_already_exists: "Ошибка! Группа %var0% уже существует."
+      invalid_group_name: "Недопустимое название для группы."
+  defgroup:
+    desc: "Изменяет группу по умолчанию. #64FF00"
+    usage: "Пример: /defgroup <группа>"
+    messages:
+      defgroup_successfully: "Группа по умолчанию успешно изменена на %var0%."
+      group_not_exist: "Группа %var0% не существует."     
+  fperms:
+    desc: "Показывает список всех разрешений для указанного плагина. #64FF00"
+    usage: "Пример: /fperms <плагин>"
+    messages:
+      no_plugin_perms: "У плагина %var0% нет никаких разрешений."
+      plugin_not_exist: "Плагин %var0% не найден."
+      plugin_perms_list: "Список всех разрешений для плагина %var0% (%var1% / %var2%):"
+  groups:
+    desc: "Показывает список всех групп. #64FF00"
+    messages:
+      all_registered_groups: "Все зарегистрированные группы: %var0%"
+  listgperms: 
+    desc: "Показывает список всех разрешений для группы. #64FF00"
+    usage: "Пример: /listgperms <группа> <страница> [мир]"
+    messages:
+      group_not_exist: "Группа %var0% не существует."
+      group_perms_list: "Список всех разрешений для группы %var0% (%var1% / %var2%):"
+      level_not_exist: "Мир %var0% не существует."
+      no_group_perms: "У группы %var0% нет никаких разрешений."
+  listuperms: 
+    desc: "Показывает список всех разрешений для указанного игрока. #64FF00"
+    usage: "Пример: /listuperms <игрок> <страница> [мир]"
+    messages:
+      level_not_exist: "Мир %var0% не существует."
+      no_user_perms: "У игрока %var0% нет никаких пользовательских разрешений."
+      user_perms_list: "Список всех разрешений для игрока %var0% (%var1% / %var2%):" 
+  ppinfo: 
+    desc: "Показывает всю информацию о плагине PurePerms, включая версию, автора и т.д. #64FF00"
+    messages:
+      ppinfo_console: "Вы используете PurePerms версии v%var0% от %var1%."
+      ppinfo_player: "На этом сервере используется PurePerms версии %var0% от %var1%."
+  ppreload: 
+    desc: "Перезагружает все настройки PurePerms."
+    messages: 
+      successfully_reloaded: "Все настройки плагина были успешно перезагружены."
+  rmgroup: 
+    desc: "Удаляет указанную группу. #64FF00"
+    usage: "Пример: /rmgroup <группа>"
+    messages:
+      group_removed_successfully: "Группа %var0% успешно удалена."
+      group_not_exist: "Группа %var0% не существует."
+      invalid_group_name: "Недопустимое название для группы."
+  setgperm: 
+    desc: "Добавляет разрешение группе. #64FF00"
+    usage: "Пример: /setgperm <группа> <разрешение> [мир]"
+    messages:
+      gperm_added_successfully: "Разрешение %var0% успешно добавлено в группу."
+      group_not_exist: "Группа %var0% не существует."
+      level_not_exist: "Мир %var0% не существует."
+  setgroup: 
+    desc: "Добавляет игрока в группу. #64FF00"
+    usage: "Пример: /setgroup <игрок> <группа> [мир]"
+    messages: 
+      group_not_exist: "Группа %var0% не существует."
+      level_not_exist: "Мир %var0% не существует."
+      setgroup_successfully: "Игрок %var0% успешно добавлен в группу."
+      on_player_group_change: "Ваша группа изменена на %var0%!"
+  setuperm: 
+    desc: "Добавляет разрешение пользователю. #64FF00"
+    usage: "Пример: /setuperm <игрок> <разрешение> [мир]"
+    messages:
+      level_not_exist: "Мир %var0% не существует."
+      uperm_added_successfully: "Разрешение %var0% успешно добавлено игроку %var1%."
+  unsetgperm: 
+    desc: "Отбирает разрешение у группы. #64FF00"
+    usage: "Пример: /unsetgperm <группа> <разрешение> [мир]"
+    messages:
+      gperm_removed_successfully: "Разрешение %var0% успешно отобрано у группы."
+      group_not_exist: "Группа %var0% не существует."
+      level_not_exist: "Мир %var0% не существует."
+  unsetuperm: 
+    desc: "Отбирает разрешение у игрока. #64FF00"
+    usage: "Пример: /unsetuperm <игрок> <разрешение> [мир]"
+    messages: 
+      level_not_exist: "Мир %var0% не существует."
+      uperm_removed_successfully: "Разрешение %var0% успешно отобрано у игрока %var1%."
+  usrinfo: 
+    desc: "Показывает информацию об игроке. #64FF00"
+    usage: "Пример: /usrinfo <игрок> [мир]"
+    messages:
+      level_not_exist: "Мир %var0% не существует."
+      status_online: "ОНЛАЙН!"
+      status_offline: "НЕ В ИГРЕ."
+      usrinfo_header: "<--- Информация об игроке %var0% --->"
+      usrinfo_username: "ИГРОК: %var0%"
+      usrinfo_status: "СТАТУС: %var0%"
+      usrinfo_ip: "IP: %var0%"
+      usrinfo_uuid: "UNIQUE ID: %var0%"
+      usrinfo_group: "ГРУППА: %var0%"
+      unknown: "Неизвестно"
+logger_messages:
+  getConfigValue_01: "Ключ %var0% не найден в файле config.yml."
+  getDefaultGroup_01: "Было указано более одной группы, назначаемой по-умолчанию в файле groups.yml."
+  getDefaultGroup_02: "Не обнаружено ни одной группы, назначаемой по-умолчанию в файле groups.yml."
+  getDefaultGroup_03: "Группа с параметром Default назначается автоматически."
+  getGroup_01: "Группа %var0% не найдена."
+  getGroup_02: "Группа %var0% имеет неправильные или поврежденные данные."
+  onEnable_01: "Поддержка мульти миров в настоящее время отключена."
+  onEnable_02: "Не забудьте установить для параметра enable-multiworld-perms в файле config.yml значение true, если хотите иметь разные разрешения в различных мирах!"
+  onEnable_03: "Поддержка мульти миров включена."
+  registerPlayer: "Регистрация игрока %var0%..."
+  setProvider_MySQL: "Тип хранилища данных - MySQL."
+  setProvider_SQLite3: "Тип хранилища данных  - SQLite3."
+  setProvider_YAML: "Тип хранилища данных - YAML."
+  setProvider_NotFound: "Провайдер данных %var0% не существует. Устанавливается стандартный тип хранилища данных."
+  unregisterPlayer: "Отмена регистрации игрока %var0%..."
+...

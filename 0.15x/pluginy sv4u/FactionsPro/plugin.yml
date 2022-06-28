@@ -1,0 +1,22 @@
+---
+name: FactionsPro
+author: Tethered_, HostingItAll.com
+description: A Plugin For Easily Managing Factions
+version: 1.4.1
+main: FactionsPro\FactionMain
+api:
+- 1.12.0
+- 2.0.0
+commands:
+  f:
+    aliases: [factions, faction, gildia, gildie, g]
+    description: use /f help for all parameters
+    permission: f.command  
+permissions:
+  f.command:
+    default: true
+    description: Allow use of all faction commands
+  fac.override:
+    default: op
+    description: Allows op users to override factions 
+...

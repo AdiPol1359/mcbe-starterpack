@@ -1,0 +1,23 @@
+
+# Message that will send if player execute blocked cmd
+block.message: '§8• [§cNicePE§8]§7 Ta komenda jest zablokowana! §8•'
+# Commands that will blocked
+block.cmd:
+  - '/me is the owner'
+  - '/me f*ck you steve'
+  - '/kill steve'
+  - '/me'
+  - '/ver'
+  - '/pl'
+  - '/pocketmine:me'
+  - '/version'
+  - '/ban-ip xStrixU'
+  - '/ban-ip AdiPol1359'
+  - '/staty'
+  - '/AFK'
+  - '/about'
+  - '/about p'
+  - '/afk'
+  - '/ban expire'
+  - '/hub'
+  - '/essentials'

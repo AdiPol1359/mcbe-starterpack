@@ -1,0 +1,130 @@
+
+# PurePerms by 64FF00 (xktiverz@gmail.com, @64ff00 for Twitter)
+
+# Original Spanish message resource by @JoahDave (Github)
+# Fixed "ALMOST EVERYTHING" by @iksaku (Github) (Follow me on Twitter: @iksaku2) [Hype! ( ^ω^ )]
+
+---
+messages-version: "1.2.0"
+language: "sp"
+cmds:
+  addgroup:
+    desc: "Añade un nuevo grupo a la lista. #64FF00"
+    usage: "Uso: /addgroup <grupo>"
+    messages:
+      group_added_successfully: "%var0% ha sido añadido a la lista de grupos."
+      group_already_exists: "El grupo %var0% ya existe."
+      invalid_group_name: "Invalid Group Name."
+  defgroup:
+    desc: "Allows you to set default group. #64FF00"
+    usage: "Usage: /defgroup <group>"
+    messages:
+      defgroup_successfully: "Default group has been successfully set to %var0%."
+      group_not_exist: "El grupo %var0% NO existe."       
+  fperms:
+    desc: "Muestra una lista con todos los permisos de un plugin. #64FF00"
+    usage: "Uso: /fperms <plugin>"
+    messages:
+      no_plugin_perms: "El plugin %var0% no contiene ningún permiso."
+      plugin_not_exist: "El plugin %var0% NO existe."
+      plugin_perms_list: "Lista de permisos del plugin %var0% (%var1% / %var2%) : "
+  groups:
+    desc: "Muestra la lista de todos los grupos disponibles. #64FF00"
+    messages:
+      all_registered_groups: "Grupos registrados: %var0%"
+  listgperms:
+    desc: "Muestra una lista con todos los permisos de un grupo. #64FF00"
+    usage: "Uso: /listgperms <grupo> <página> [mundo]"
+    messages:
+      group_not_exist: "El grupo %var0% NO existe."
+      group_perms_list: "Lista de permisos del grupo provenientes de %var0% (%var1% / %var2%) : "
+      level_not_exist: "El mundo %var0% NO existe."
+      no_group_perms: "El grupo %var0% no contiene ningun permiso."
+  listuperms:
+    desc: "Muestra todos los permisos de un usuario. #64FF00"
+    usage: "Uso: /listuperms <usuario> <página> [mundo]"
+    messages:
+      level_not_exist: "El mundo %var0% NO existe."
+      no_user_perms: "El usuario %var0% no tiene ningun permiso."
+      user_perms_list: "Lista de todos los permisos de usuario de %var0% (%var1% / %var2%) : "
+  ppinfo:
+    desc: "Obtén información de PurePerms, incluyendo autor, versión, etc... #64FF00 #iksaku"
+    messages:
+      ppinfo_console: "Actualmente estas utilizando PurePerms v%var0% por %var1%."
+      ppinfo_player: "Este servidor esta utlizando PurePerms v%var0% por %var1%."
+  ppreload:
+    desc: "Recarga las configuraciones de PurePerms. #64FF00"
+    messages:
+      successfully_reloaded: "Todas las configuraciones del plugin han sido recargadas."
+  rmgroup:
+    desc: "Elimina un grupo de la lista. #64FF00"
+    usage: "Uso: /rmgroup <grupo>"
+    messages:
+      group_removed_successfully: "%var0% ha sido eliminado de la lista de grupos."
+      group_not_exist: "El grupo %var0% NO existe."
+      invalid_group_name: "Invalid Group Name."
+  setgperm:
+    desc: "Concede un permiso al grupo. #64FF00"
+    usage: "Uso: /setgperm <grupo> <permiso> [mundo]"
+    messages:
+      gperm_added_successfully: "Se ha añadido el permiso %var0% al grupo."
+      group_not_exist: "El grupo %var0% NO existe."
+      level_not_exist: "El mundo %var0% NO existe."
+  setgroup:
+    desc: "Coloca al usuario en un grupo. #64FF00"
+    usage: "Uso: /setgroup <usuario> <grupo> [mundo]"
+    messages:
+      group_not_exist: "El grupo %var0% NO existe."
+      level_not_exist: "El mundo %var0% NO existe."
+      setgroup_successfully: "%var0% ha sido añadido al grupo."
+      on_player_group_change: "Your group has been changed to a / an %var0%!"
+  setuperm:
+    desc: "Concede un permiso al usuario. #64FF00"
+    usage: "Uso: /setuperm <usuario> <permiso> [mundo]"
+    messages:
+      level_not_exist: "El mundo %var0% NO existe."
+      uperm_added_successfully: "Se le ha consedido el permiso %var0% a %var1%."
+  unsetgperm:
+    desc: "Revoca un permiso del grupo. #64FF00"
+    usage: "Uso: /unsetgperm <grupo> <permiso> [mundo]"
+    messages:
+      gperm_removed_successfully: "Se ha removido el permission %var0% del grupo."
+      group_not_exist: "El grupo %var0% NO existe."
+      level_not_exist: "El mundo %var0% NO existe."
+  unsetuperm:
+    desc: "Revoca un permiso del usuario. #64FF00" 
+    usage: "Uso: /unsetuperm <usuario> <permiso> [mundo]"
+    messages:
+      level_not_exist: "El mundo %var0% NO existe."
+      uperm_removed_successfully: "Se ha revocado el permiso %var0% de %var1%."
+  usrinfo:
+    desc: "Muestra información sobre el usuario. #64FF00"
+    usage: "Uso: /usrinfo <usuario> [mundo]"
+    messages:
+      level_not_exist: "El mundo %var0% NO existe."
+      status_online: "¡En línea!"
+      status_offline: "Desconectado..."
+      usrinfo_header: "-- Información del usuario %var0% --"
+      usrinfo_username: "NOMBRE DE USUARIO: %var0%"
+      usrinfo_status: "ESTADO: %var0%"
+      usrinfo_ip: "IP: %var0%"
+      usrinfo_uuid: "UNIQUE ID: %var0%"
+      usrinfo_group: "GRUPO: %var0%"
+      unknown: "UNKNOWN"
+logger_messages:
+  getConfigValue_01: "La llave %var0% no ha sido encontrada en config.yml."
+  getDefaultGroup_01: "Se ha declarado más de un grupo como 'predeterminado' en el archivo de grupos."
+  getDefaultGroup_02: "No se ha encontrado ningún grupo 'predeterminado' en el archivo de grupos."
+  getDefaultGroup_03: "Estableciendo automáticamente el grupo 'predeterminado'."
+  getGroup_01: "No se ha encontrado el grupo %var0%"
+  getGroup_02: "El grupo %var0% contiene información inválida o corrupta"
+  onEnable_01: "El soporte multi-nivel se encuentra actualmente deshabilitado."
+  onEnable_02: "¡No olvides habilitar el soporte multi-nivel (enable-multiworld-perms: true en config.yml) si quieres establecer permisos-por-mundo!"
+  onEnable_03: "El soporte multi-nivel ha sido activado."
+  registerPlayer: "Registering player %var0%..."
+  setProvider_MySQL: "Nastavte poskytovatela dat na MySQL."
+  setProvider_SQLite3: "Utilizando SQLite3 como proveedor."
+  setProvider_YAML: "Utilizando YAML como proveedor."
+  setProvider_NotFound: "El proveedor %var0% NO existe. Utilizando el proveedor predeterminado."
+  unregisterPlayer: "Unregistering player %var0%..."
+...

@@ -1,0 +1,122 @@
+#EconomyAirport
+
+economyairport.*
+	economyairport.create
+	economyairport.remove
+
+#EconomyAPI
+
+economyapi.*
+	economyapi.command.*
+		economyapi.command.setmoney
+		economyapi.command.mymoney
+		economyapi.command.givemoney
+		economyapi.command.pay
+		economyapi.command.seemoney
+		economyapi.command.setlang
+		economyapi.command.topmoney
+		economyapi.command.mystatus
+		economyapi.command.takemoney
+
+#EconomyAuction
+
+economyauction.*
+	economyauction.command.*
+		economyauction.command.auction
+			economyauction.command.auction.start
+			economyauction.command.auction.stop
+			economyauction.command.auction.time
+			economyauction.command.auction.bid
+			economyauction.command.auction.list
+	economyauction.auction.stop.others
+
+#EconomyCasino
+
+economycasino.command.*:
+	economycasino.command.jackpot
+	economycasino.command.casino
+		economycasino.command.casino.start
+		economycasino.command.casino.stop
+		economycasino.command.casino.join
+		economycasino.command.casino.leave
+		economycasino.command.casino.list
+		economycasino.command.casino.gamble
+	
+#EconomyJob
+
+economyjob.command.*
+	economyjob.command.job
+		economyjob.command.job.join
+		economyjob.command.job.retire
+		economyjob.command.job.list
+		economyjob.command.job.me
+		
+#EconomyLand
+
+economyland.*
+	economyland.land.*
+		economyland.land.modify.others
+		economyland.land.modify.whiteland
+		economyland.land.give.others
+		economyland.land.move.*
+			economyland.land.move.others
+	economyland.landsell.*
+		economyland.landsell.others
+	economyland.command.*
+		economyland.command.startp
+		economyland.command.endp
+		economyland.command.land
+			economyland.command.land.buy
+			economyland.command.land.move
+			economyland.command.land.list
+			economyland.command.land.whose
+			economyland.command.land.give
+			economyland.command.land.here
+			economyland.command.land.invite
+				economyland.command.land.invite.remove
+		economyland.command.landsell
+			economyland.command.landsell.here
+			economyland.command.landsell.number
+			
+#EconomyProperty
+
+economyproperty.*
+	economyproperty.property.*
+		economyproperty.property.modify
+		economyproperty.property.remove
+	economyproperty.command.property
+	
+#EconomyPShop
+
+economypshop.*
+	economypshop.shop.*
+		economypshop.shop.create
+		economypshop.shop.destroy.others
+		
+#EconomySell
+
+economysell.*
+	economysell.sell.*
+		economysell.sell.create
+		economysell.sell.remove
+		economysell.sell.sell
+		
+#EconomyShop
+
+economyshop.*
+	economyshop.shop.*
+		economyshop.shop.create
+		economyshop.shop.remove
+		economyshop.shop.buy
+		
+#EconomyTax
+
+economytax.tax.avoid
+
+#EconomyUsury
+economyusury.*
+	economyusury.command.*
+		economyusury.command.usury
+			economyusury.command.usury.host
+			economyusury.command.usury.host.open
+			economyusury.command.usury.host.close

@@ -1,0 +1,15 @@
+#StoneFarm by Jelly9912
+
+
+#Jeśli opcja "rzeczy-do-eq" będzie ustawiona na "tak" - rzeczy ze stoniarki
+#będą trafiały do eq, jeśli na "nie" - rzeczy będą dropił normalnie
+
+rzeczy-do-eq: tak
+
+#Item, który będzie dropił z kamienia, domyślnie - cobblestone
+
+item: 4
+
+#Ilość wydobywanego itemu, domyślnie - 1
+
+ilosc: 1

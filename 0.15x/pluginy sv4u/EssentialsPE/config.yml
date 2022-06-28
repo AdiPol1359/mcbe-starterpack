@@ -1,0 +1,45 @@
+# EssentialsPE configuration
+# This configuration flie let you modify how EssentialsPE work with some features
+
+# DO NOT EDIT THIS PROPERTY! For internal use ONLY
+version: 0.0.1
+
+# Edit different parts of the AFK feature!
+afk:
+  # Players that are AFK can, or not, be damaged
+  safe: true
+  # Time until a player is known as AFK
+  # You can disable this feature by assigning a value lower to 0
+  auto-set: 300
+  # This option et you enable or disable the "Auto-AFK" broadcast status,
+  # So when someone is automatically set into AFK for idling, it will be broadcasted... Or not
+  auto-broadcast: true
+  # Time until a player is kicked for being AFK
+  # You can disable this feature by assigning a value lower to 0
+  auto-kick: 300
+  # Allow the broadcasting of the AFK status of a player
+  broadcast: true
+
+# Let you configure the size of a stack that players (with permission) can get (via /more or /item)
+oversized-stacks: 64
+
+# Let you set a limit for the /near command to search for players (in blocks)
+near-radius-limit: 200
+# Let you set a default value to search for players (it can't be higher than the default limit)
+near-default-radius: 200
+
+# This option let you enable color codes in the server, but keep in mind that the client may not support them
+enable-custom-colors: false
+
+# These options will let you configure how the auto-updater will work
+updater:
+  # Enable the AUTOMATIC updater
+  enabled: true
+  # Allow to set a time interval for the auto-updater to work (In seconds) [Default is 30 minutes {1800 seconds}]
+  time-interval: 1800
+  # Do you want to warn the console?
+  warn-console: true
+  # Do you want to warn players with the permission 'essentials.update'?
+  warn-players: true
+  # Do you want to use 'stable' releases? If not, beta ones will be used instead
+  stable: true

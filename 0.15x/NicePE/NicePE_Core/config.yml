@@ -1,0 +1,28 @@
+---
+messages:
+- §7Wszystkie informcje znajdziesz na Spawnie! §8•
+- §7Zapraszaj znajomych! §8•
+- '§7Czy wiesz, że wlasciciel ma swoj kanal?: §cAdiPol1359 §8•'
+- '§7Kupno rang znajdziesz pod komendą: §c/rangi§7! §8•'
+- '§7Listę komend znajdziesz pod: §c/pomoc §8•'
+- '§7Schowek pod komenda: §c/schowek§7! §8•'
+- '§7Widzisz cheatera? zglos to adminitracji! §8•'
+- '§7Limit koxów, refów i pereł wynosi: §c2§7,§c8§7,§c4§7! §8•'
+- '§7Efekty Do PvP Pod: §c/efekty §8•'
+- '§7Kupno PremiumCase Pod §c/premiumcase §8•'
+- '§7Możesz wyłączyć powiadomienia z PremiumCase, użyj §c/case on/off §8•'
+- '§7Kupno wszystkiego przez SMS pod komendą: §c/sms §8•'
+- '§7Chcesz kolorowy nick? Wpisz: §c/nicki §8•'
+- '§7Masz jakąś sprawę ale nie wiesz czy jakiś admin jest online? Wpisz: §c/administracja §8•'
+- '§7Itemy na gildie pod: §c/g itemy §8•'
+- '§7Naszym technikiem jest: §cxStrixU §8•'
+- '§7Informacje o dropie pod: §c/drop §8•'
+- '§7Regulamin pod: §c/regulamin §8•'
+- '§7Masz zaspamiony chat? Wpisz: §c/chatwyczysc §8•'
+- '§7Chcesz zobaczyć swoje kordy? Wpisz: §c/kordy on/off §8•'
+- '§7Chcesz kupić particlesy? Wpisz: §c/particleinfo §8•'
+- '§7Możesz wyłączyć powiadomienia o PremiumCase pod: §c/pc §8•'
+time: "60"
+prefix: §cNicePE§8
+color: §8
+...

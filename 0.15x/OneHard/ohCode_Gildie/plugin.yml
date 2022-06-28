@@ -1,0 +1,22 @@
+---
+name: ohCode_Gildie
+author: ohCode
+description: No i masz gildie
+version: 1.0.3
+main: FactionsPro\FactionMain
+api:
+- 1.12.0
+- 2.0.0
+commands:
+  g:
+    aliases: [gildia, gildie, g]
+    description: use /g help for all parameters
+    permission: f.command 
+permissions:
+  f.command:
+    default: true
+    description: Allow use of all faction commands
+  fac.override:
+    default: op
+    description: Allows op users to override factions 
+...

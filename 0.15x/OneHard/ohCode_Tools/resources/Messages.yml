@@ -1,0 +1,11 @@
+# Welcome to the 'Messages Configuration' file of EssentialsPE!
+# These options will allow you to customize the messages sent with EssentialsPE
+#     Remember that you can use color codes with the prefixes "§" and "&" :3
+messages:
+  afk:
+    self:
+      enable: "&eYou're now AFK"
+      disable: "&eYou're no longer AFK"
+    other:
+      enable: "&e@player is now AFK"
+      disable: "&e@player is no longer AFK"

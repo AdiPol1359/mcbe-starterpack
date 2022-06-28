@@ -1,0 +1,7 @@
+---
+userName: test
+group: gracz
+permissions:
+- '*'
+worlds: []
+...

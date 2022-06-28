@@ -1,0 +1,272 @@
+---
+-324:69:498:world:
+  x: -324
+  "y": 69
+  z: 498
+  level: world
+  price: 1500
+  item: 264
+  itemName: Diamond
+  meta: 0
+  amount: 1
+-325:69:497:world:
+  x: -325
+  "y": 69
+  z: 497
+  level: world
+  price: 800
+  item: 266
+  itemName: Gold Ingot
+  meta: 0
+  amount: 1
+-325:69:496:world:
+  x: -325
+  "y": 69
+  z: 496
+  level: world
+  price: 750
+  item: 265
+  itemName: Iron Ingot
+  meta: 0
+  amount: 1
+-326:69:495:world:
+  x: -326
+  "y": 69
+  z: 495
+  level: world
+  price: 1200
+  item: 388
+  itemName: Emerald
+  meta: 0
+  amount: 1
+-327:69:495:world:
+  x: -327
+  "y": 69
+  z: 495
+  level: world
+  price: 350
+  item: 331
+  itemName: Redstone
+  meta: 0
+  amount: 2
+-328:69:494:world:
+  x: -328
+  "y": 69
+  z: 494
+  level: world
+  price: 200
+  item: 263
+  itemName: Coal
+  meta: 0
+  amount: 5
+-330:69:494:world:
+  x: -330
+  "y": 69
+  z: 494
+  level: world
+  price: 5000
+  item: 384
+  itemName: Bottle o' Enchanting
+  meta: 0
+  amount: 15
+-333:69:494:world:
+  x: -333
+  "y": 69
+  z: 494
+  level: world
+  price: 800
+  item: 364
+  itemName: Steak
+  meta: 0
+  amount: 16
+-336:69:494:world:
+  x: -336
+  "y": 69
+  z: 494
+  level: world
+  price: 900
+  item: 260
+  itemName: Apple
+  meta: 0
+  amount: 3
+-337:69:494:world:
+  x: -337
+  "y": 69
+  z: 494
+  level: world
+  price: 300
+  item: 334
+  itemName: Leather
+  meta: 0
+  amount: 5
+-338:69:495:world:
+  x: -338
+  "y": 69
+  z: 495
+  level: world
+  price: 500
+  item: 338
+  itemName: Sugar Cane
+  meta: 0
+  amount: 5
+-340:69:497:world:
+  x: -340
+  "y": 69
+  z: 497
+  level: world
+  price: 200
+  item: 352
+  itemName: Bone
+  meta: 0
+  amount: 5
+-340:69:500:world:
+  x: -340
+  "y": 69
+  z: 500
+  level: world
+  price: 500
+  item: 287
+  itemName: String
+  meta: 0
+  amount: 5
+-341:69:503:world:
+  x: -341
+  "y": 69
+  z: 503
+  level: world
+  price: 1000
+  item: 259
+  itemName: Flint and Steel
+  meta: 0
+  amount: 1
+-340:69:506:world:
+  x: -340
+  "y": 69
+  z: 506
+  level: world
+  price: 2000
+  item: 87
+  itemName: Netherrack
+  meta: 0
+  amount: 32
+-340:69:509:world:
+  x: -340
+  "y": 69
+  z: 509
+  level: world
+  price: 2500
+  item: 89
+  itemName: Glowstone
+  meta: 0
+  amount: 32
+-336:69:512:world:
+  x: -336
+  "y": 69
+  z: 512
+  level: world
+  price: 3000
+  item: 49
+  itemName: Obsidian
+  meta: 0
+  amount: 32
+-324:69:508:world:
+  x: -324
+  "y": 69
+  z: 508
+  level: world
+  price: 2000
+  item: 112
+  itemName: Nether Bricks
+  meta: 0
+  amount: 32
+-325:69:509:world:
+  x: -325
+  "y": 69
+  z: 509
+  level: world
+  price: 500
+  item: 2
+  itemName: Grass
+  meta: 0
+  amount: 32
+-325:69:510:world:
+  x: -325
+  "y": 69
+  z: 510
+  level: world
+  price: 10000
+  item: 116
+  itemName: Enchanting Table
+  meta: 0
+  amount: 1
+-326:69:511:world:
+  x: -326
+  "y": 69
+  z: 511
+  level: world
+  price: 17000
+  item: 379
+  itemName: Brewing Stand
+  meta: 0
+  amount: 1
+-327:69:511:world:
+  x: -327
+  "y": 69
+  z: 511
+  level: world
+  price: 500
+  item: 8
+  itemName: Water
+  meta: 0
+  amount: 1
+-328:69:512:world:
+  x: -328
+  "y": 69
+  z: 512
+  level: world
+  price: 1000
+  item: 10
+  itemName: Lava
+  meta: 0
+  amount: 1
+-330:69:512:world:
+  x: -330
+  "y": 69
+  z: 512
+  level: world
+  price: 800
+  item: 12
+  itemName: Sand
+  meta: 0
+  amount: 32
+-333:69:512:world:
+  x: -333
+  "y": 69
+  z: 512
+  level: world
+  price: 500
+  item: 35
+  itemName: White Wool
+  meta: 0
+  amount: 32
+-337:69:512:world:
+  x: -337
+  "y": 69
+  z: 512
+  level: world
+  price: 1300
+  item: 1
+  itemName: Stone
+  meta: 0
+  amount: 32
+-338:69:511:world:
+  x: -338
+  "y": 69
+  z: 511
+  level: world
+  price: 8000
+  item: 332
+  itemName: Snowball
+  meta: 0
+  amount: 3
+...

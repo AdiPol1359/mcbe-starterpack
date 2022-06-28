@@ -1,0 +1,31 @@
+---
+MaxFactionNameLength: 10
+MaxPlayersPerFaction: 20
+OnlyLeadersAndOfficersCanInvite: true
+0: '###Plots###'
+OfficersCanClaim: false
+PlotSize: 65
+PlayersNeededInFactionToClaimAPlot: 1
+ClaimingEnabled: true
+ClaimWorlds:
+- world
+1: '###Guilds Power###'
+PowerNeededToClaimAPlot: 0
+PowerNeededToSetOrUpdateAHome: 0
+PowerGainedPerPlayerInFaction: 0
+PowerGainedPerKillingAnEnemy: 25
+PowerReducedPerDeathByAnEnemy: 35
+PowerGainedPerAlly: 0
+AllyLimitPerFaction: 5
+TheDefaultPowerEveryFactionStartsWith: 1000
+2: '###Economys###'
+CreateCost: 0
+ClaimCost: 0
+OverClaimCost: 0
+AllyCost: 0
+AllyPrice: 0
+SetHomeCost: 0
+3: '###GuildsMoneys###'
+GuildsMoneyGainPerKill: 0
+GuildsMoneyLostPerDeath: 0
+...

@@ -1,0 +1,12 @@
+# Config file for TimeCommander by LDX;
+
+# List of commands for the plugin to execute at the given times;
+# Command: Command to execute;
+# Time: Amount of time in minutes between command executions;
+Commands:
+  - Command: lagg clearall
+    Time: 8
+  - Command: save-all
+    Time: 60
+  - Command: stop
+    Time: 181

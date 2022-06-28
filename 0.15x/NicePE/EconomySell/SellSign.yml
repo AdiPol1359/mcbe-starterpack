@@ -1,0 +1,7 @@
+---
+sell:
+- §8[§cSprzedaj§8]
+- §7Monety:§c§l %MONETARY_UNIT%%1
+- '§7Nazwa:§c§l %2'
+- '§7Ilosc:§c§l §l%3'
+...

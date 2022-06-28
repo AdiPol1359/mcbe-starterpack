@@ -1,0 +1,19 @@
+name: ohCode_Laggs
+main: ClearLagg\Loader
+version: 1.1.0
+api: 1.0.0
+author: ohCode
+website: https://ohCode.pl/
+description: "Jebac lagi"
+permissions:
+  lag:
+    default: false
+    description: "Allows access to all ClearLagg features."
+    children:
+      lag.command:
+        default: false
+        description: "Allows access to all ClearLagg commands."
+        children:  
+          lag.command.lag:
+            default: op
+            description: "Allows access to the clearlagg command."

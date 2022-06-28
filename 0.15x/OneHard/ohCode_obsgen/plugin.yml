@@ -1,0 +1,5 @@
+name: ohCode_obsgen
+author: ohCode
+version: 0.1
+main: obsydianiarka\Main
+api: [1.13.0]

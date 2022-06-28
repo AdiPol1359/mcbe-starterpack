@@ -1,0 +1,13 @@
+name: ohCode_Piorun
+main: Driesboy\Main
+version: 1.0.0
+api: 1.12.0
+author: Driesboy
+description: Lightning on player join,command,dead,respawn
+commands:
+  Light:
+    default: OP
+    description: Make a lightning over player
+permissions:
+  Light.command:
+    default: OP

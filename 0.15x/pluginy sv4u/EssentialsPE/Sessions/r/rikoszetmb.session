@@ -1,0 +1,30 @@
+{
+    "isAFK": false,
+    "isGod": false,
+    "homes": {
+        "xd": [
+            911.42626953125,
+            66.000002746582,
+            1084.6760253906,
+            "world",
+            354,
+            2
+        ],
+        "g": [
+            1017.8856811523,
+            71.000002746582,
+            941.14971923828,
+            "world",
+            251,
+            48
+        ]
+    },
+    "isMuted": false,
+    "mutedUntil": null,
+    "nick": null,
+    "ptCommands": false,
+    "ptChatMacros": false,
+    "isPvPEnabled": true,
+    "isUnlimitedEnabled": false,
+    "isVanished": false
+}

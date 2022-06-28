@@ -1,0 +1,28 @@
+
+# Message that will send if player execute blocked cmd
+block.message: '• §1>>  §cTa komenda jest zablokowana. §f•'
+# Commands that will blocked
+block.cmd:
+  - '/me is the owner'
+  - '/me f*ck you steve'
+  - '/kill steve'
+  - '/kil'
+  - '/ver'
+  - '/me'
+  - '/version'
+  - '/ban-ip ArchiverYT'
+  - '/topmoney'
+  - '/ban-ip bvv'
+  - '/AFK'
+  - '/time stop'
+  - '/ban ArchiverYT'
+  - '/afk'
+  - '/ban ArchiverYT'
+  - '/hub'
+  - '/essentials'
+  - '/pl'
+  - '/plugins'
+  - '/me'
+  - '/tpyes'
+  - '/about'
+  - '/me'

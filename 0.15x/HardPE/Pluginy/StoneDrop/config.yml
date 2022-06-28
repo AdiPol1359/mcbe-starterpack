@@ -1,0 +1,37 @@
+#TierLoot plugin by XFuryMCPE
+#Add as many items as you want to the config. :)
+#chance - if(mt_rand(1,$chance) == "1") is checked for these. Example: 15 would give you a 1 in 15 chance of getting loot
+#item-max - Max items able to be gotten in a stack
+#WARNING: Tools won't stack. :P will fix in an update 
+
+
+
+t6-chance: 50
+t6-item-max: 1
+t6-loot:
+ - 49
+
+t7-chance: 50
+t7-item-max: 1
+t7-loot:
+ - 265
+
+t8-chance: 50
+t8-item-max: 1
+t8-loot:
+ - 266
+
+t9-chance: 50
+t9-item-max: 1
+t9-loot:
+ - 264
+
+t10-chance: 25
+t10-item-max: 1
+t10-loot:
+ - 263
+
+t11-chance: 13
+t11-item-max: 1
+t11-loot:
+ - 331

@@ -1,0 +1,22 @@
+{
+    "isAFK": false,
+    "isGod": false,
+    "homes": {
+        "g": [
+            1642.1387939453,
+            29.000000839233,
+            522.84478759766,
+            "world",
+            193,
+            36
+        ]
+    },
+    "isMuted": false,
+    "mutedUntil": null,
+    "nick": "\u00a74Turbosprezarka_",
+    "ptCommands": false,
+    "ptChatMacros": false,
+    "isPvPEnabled": true,
+    "isUnlimitedEnabled": false,
+    "isVanished": false
+}

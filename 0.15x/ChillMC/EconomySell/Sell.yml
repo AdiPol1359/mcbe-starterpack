@@ -1,0 +1,232 @@
+---
+-324:67:498:world:
+  x: -324
+  "y": 67
+  z: 498
+  level: world
+  cost: 250
+  item: 264
+  itemName: Diamond
+  meta: 0
+  amount: 5
+-325:67:496:world:
+  x: -325
+  "y": 67
+  z: 496
+  level: world
+  cost: 150
+  item: 265
+  itemName: Iron Ingot
+  meta: 0
+  amount: 5
+-326:67:495:world:
+  x: -326
+  "y": 67
+  z: 495
+  level: world
+  cost: 300
+  item: 388
+  itemName: Emerald
+  meta: 0
+  amount: 5
+-327:67:495:world:
+  x: -327
+  "y": 67
+  z: 495
+  level: world
+  cost: 100
+  item: 331
+  itemName: Redstone
+  meta: 0
+  amount: 5
+-328:67:494:world:
+  x: -328
+  "y": 67
+  z: 494
+  level: world
+  cost: 25
+  item: 263
+  itemName: Coal
+  meta: 0
+  amount: 5
+-330:67:494:world:
+  x: -330
+  "y": 67
+  z: 494
+  level: world
+  cost: 350
+  item: 384
+  itemName: Bottle o' Enchanting
+  meta: 0
+  amount: 32
+-336:67:494:world:
+  x: -336
+  "y": 67
+  z: 494
+  level: world
+  cost: 250
+  item: 260
+  itemName: Apple
+  meta: 0
+  amount: 5
+-337:67:494:world:
+  x: -337
+  "y": 67
+  z: 494
+  level: world
+  cost: 100
+  item: 334
+  itemName: Leather
+  meta: 0
+  amount: 5
+-338:67:495:world:
+  x: -338
+  "y": 67
+  z: 495
+  level: world
+  cost: 300
+  item: 338
+  itemName: Sugar Cane
+  meta: 0
+  amount: 5
+-340:67:497:world:
+  x: -340
+  "y": 67
+  z: 497
+  level: world
+  cost: 150
+  item: 352
+  itemName: Bone
+  meta: 0
+  amount: 5
+-340:67:500:world:
+  x: -340
+  "y": 67
+  z: 500
+  level: world
+  cost: 200
+  item: 287
+  itemName: String
+  meta: 0
+  amount: 5
+-340:67:506:world:
+  x: -340
+  "y": 67
+  z: 506
+  level: world
+  cost: 500
+  item: 87
+  itemName: Netherrack
+  meta: 0
+  amount: 32
+-340:67:509:world:
+  x: -340
+  "y": 67
+  z: 509
+  level: world
+  cost: 600
+  item: 89
+  itemName: Glowstone
+  meta: 0
+  amount: 32
+-337:67:512:world:
+  x: -337
+  "y": 67
+  z: 512
+  level: world
+  cost: 400
+  item: 1
+  itemName: Stone
+  meta: 0
+  amount: 32
+-336:67:512:world:
+  x: -336
+  "y": 67
+  z: 512
+  level: world
+  cost: 500
+  item: 49
+  itemName: Obsidian
+  meta: 0
+  amount: 32
+-333:67:512:world:
+  x: -333
+  "y": 67
+  z: 512
+  level: world
+  cost: 150
+  item: 35
+  itemName: White Wool
+  meta: 0
+  amount: 32
+-330:67:512:world:
+  x: -330
+  "y": 67
+  z: 512
+  level: world
+  cost: 350
+  item: 12
+  itemName: Sand
+  meta: 0
+  amount: 32
+-325:67:509:world:
+  x: -325
+  "y": 67
+  z: 509
+  level: world
+  cost: 250
+  item: 2
+  itemName: Grass
+  meta: 0
+  amount: 32
+-324:67:508:world:
+  x: -324
+  "y": 67
+  z: 508
+  level: world
+  cost: 250
+  item: 112
+  itemName: Nether Bricks
+  meta: 0
+  amount: 32
+-78:52:-41:world:
+  x: -78
+  "y": 52
+  z: -41
+  level: world
+  cost: 10
+  item: 4
+  itemName: Cobblestone
+  meta: 0
+  amount: 32
+-79:52:-40:world:
+  x: -79
+  "y": 52
+  z: -40
+  level: world
+  cost: 3000
+  item: 41
+  itemName: Gold Block
+  meta: 0
+  amount: 1
+-80:52:-41:world:
+  x: -80
+  "y": 52
+  z: -41
+  level: world
+  cost: 1000
+  item: 42
+  itemName: Iron Block
+  meta: 0
+  amount: 1
+-79:52:-42:world:
+  x: -79
+  "y": 52
+  z: -42
+  level: world
+  cost: 2000
+  item: 57
+  itemName: Diamond Block
+  meta: 0
+  amount: 1
+...

@@ -1,0 +1,61 @@
+---
+enable-multiworld-support: false
+custom-no-fac-message: §
+groups:
+  gracz:
+    default-chat: '§f• §8(§7{pkt}§8) §a{faction} §2(§7G§2) §7{display_name}: §f{message}
+      §f•'
+    default-nametag: §8(§7{pkt}§8) §a{faction} §7{display_name}
+  vip:
+    default-chat: §f• §8(§7{pkt}§8) §a{faction} §2(§6V§3I§6P§2) §e{display_name}:§f
+      {message} §f•
+    default-nametag: §8(§7{pkt}§8) §a{faction} §e{display_name}
+  wlasciciel:
+    default-chat: '§f• §2(§4W§2) §4{display_name}: §6{message} §f•'
+    default-nametag: §a(faction) §4{display_name}
+  helper:
+    default-chat: '§f• §8(§7{pkt}§8) §a{faction} §2(§5H§2) §3{display_name}: §f{message}
+      §f•'
+    default-nametag: §8(§7{pkt}§8) §a{faction} §3{display_name}
+  moderator:
+    default-chat: '§f• §2(§4M§2) §2{display_name}: §c{message} §f•'
+    default-nametag: §a{faction} §2{display_name}
+  administrator:
+    default-chat: '§f• §2(§cA§2) §4{display_name}: §6{message} §f•'
+    default-nametag: §a{faction} §4{display_name}
+  yt:
+    default-chat: '§f• §8(§7{pkt}§8) §a{faction} §2(§fY§cT§2) §7{display_name}: §f{message}
+      §f•'
+    default-nametag: §8(§7{pkt}§8) §a{faction} §2(§fY§cT§2) §7{display_name}
+  svip:
+    default-chat: '§f• §8(§7{pkt}§8) §a{faction} §2(§6SV§3I§6P§2) §6{display_name}:
+      §6{message} §f•'
+    default-nametag: §8(§7{pkt}§8) §a{faction} §6{display_name}
+  Guest:
+    default-chat: '{COLOR_YELLOW}{FORMAT_BOLD}[Guest]{COLOR_WHITE}{FORMAT_RESET} {display_name}
+      {COLOR_GRAY}> {message}'
+    default-nametag: '{COLOR_YELLOW}{FORMAT_BOLD}[Guest]{COLOR_WHITE}{FORMAT_RESET}
+      {display_name}'
+    worlds: []
+  Admin:
+    default-chat: '{COLOR_AQUA}{FORMAT_BOLD}[Admin]{COLOR_WHITE}{FORMAT_RESET} {display_name}
+      {COLOR_GRAY}> {message}'
+    default-nametag: '{COLOR_AQUA}{FORMAT_BOLD}[Admin]{COLOR_WHITE}{FORMAT_RESET}
+      {display_name}'
+    worlds: []
+  Owner:
+    default-chat: '{COLOR_BLUE}{FORMAT_BOLD}[Owner]{COLOR_WHITE}{FORMAT_RESET} {display_name}
+      {COLOR_GRAY}> {message}'
+    default-nametag: '{COLOR_BLUE}{FORMAT_BOLD}[Owner]{COLOR_WHITE}{FORMAT_RESET}
+      {display_name}'
+    worlds: []
+  OP:
+    default-chat: '{COLOR_GREEN}{FORMAT_BOLD}[OP]{COLOR_WHITE}{FORMAT_RESET} {display_name}
+      {COLOR_GRAY}> {message}'
+    default-nametag: '{COLOR_BLUE}{FORMAT_BOLD}[OP]{COLOR_WHITE}{FORMAT_RESET} {display_name}'
+    worlds: []
+  wlasciciel:
+    default-chat: '§f•        
+§2(§4W§2) §4{display_name}: §6{message} §f•'
+    default-nametag: §a{faction} §4{display_name}
+...

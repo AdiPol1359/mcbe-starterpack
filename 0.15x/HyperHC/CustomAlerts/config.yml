@@ -1,0 +1,90 @@
+---
+datetime-format: "H:i:s"
+Motd:
+  update-timeout: 1
+  custom: true
+  message: "§4 RageHC.EU  <3 ×"
+OutdatedClient:
+  custom: false
+  message: "&cTwoja Wersja MCPE jest stara!"
+OutdatedServer:
+  custom: false
+  message: "&cOops! Serwer na wersje 0.15.x!"
+WhitelistedServer:
+  custom: true
+  message: "&c§lSTART Niedlugo\n&c§lZapraszamy na nasza strone www!\n§l§cRageHC.EU"
+FullServer:
+  custom: true
+  message: "&f{PLAYER}&f Serwer jest pełny &c[{TOTALPLAYERS}/{MAXPLAYERS}]"
+FirstJoin:
+  enable: true
+  message: "§8•      §c(+-----------------------------------+) §8•\n\n§8      • §fWitamy po raz pierwszy gracza §c{PLAYER} §8•\n\n§8•      §c(+-----------------------------------+) §8•"
+Join:
+  hide: true
+  custom: false
+  message: "§8[§a+§8]§a {PLAYER}§8 •"
+Quit:
+  hide: true
+  custom: false
+  message: "&8[§4-§8]§4 {PLAYER}§8 •"
+WorldChange:
+  enable: false
+  message: "&2[{TIME}] &a{PLAYER}&e moved from &c{ORIGIN}&e to &a{TARGET}"
+Death:
+  hide: false
+  custom: true
+  message: "&4
+c{PLAYER} §7Umarł •"
+  death-contact-message:
+    hide: false
+    custom: true
+    message: "&cGracz {PLAYER} został zabity przez {BLOCK}"
+  kill-message:
+    hide: false
+    custom: true
+    message: "§8• &c{KILLER} §8[§4+25§8] &7Zabił gracza &c{PLAYER} §8[§4-25§8] §8•"
+  death-projectile-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} §6[§c-25§6]§7Został zabity przez §c{KILLER} §6[§c+25§6] z luku §7 •"
+  death-suffocation-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} Udusił się"
+  death-fall-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} &7Spadł z wysokości §7• "
+  death-fire-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} Spalił/a się."
+  death-on-fire-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} Spalił się."
+  death-lava-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} Spłonął w lawie."
+  death-drowning-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} drowned"
+  death-explosion-message:
+    hide: false
+    custom: true
+    message: "&c{PLAYER} §7Umarł przez TNT •"
+  death-void-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} fell into the void"
+  death-suicide-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} committed suicide"
+  death-magic-message:
+    hide: true
+    custom: true
+    message: "&c{PLAYER} Umarł przez poteke."
+...
