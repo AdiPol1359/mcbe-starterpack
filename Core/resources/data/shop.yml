@@ -1,0 +1,904 @@
+---
+defaultForm: menu
+
+forms:
+  menu:
+    title: §l§9SKLEP
+    buttons:
+    - text: "§8§l» §9KUPNO §8§l«§r\n§8Kliknij aby kupowac"
+      onClick:
+        send: MainBuy
+    - text: "§8§l» §9SPRZEDAZ §8§l«§r\n§8Kliknij aby sprzedawac"
+      onClick:
+        send: MainSell  
+
+  # MAIN SHOPS
+
+  MainBuy:
+    title: §l§9KUPNO
+    buttons:
+    - text: "§l§8BLOKI"
+      image:
+        type: url
+        data: "https://vignette.wikia.nocookie.net/minecraft/images/6/67/Cobblestone.png"
+      onClick:
+       send: BuyBlocks
+    - text: "§l§8DEKORACJE"
+      image:
+        type: path
+        data: "textures/items/brick"
+      onClick:
+       send: BuyDecoration       
+    - text: "§l§8SPECJALNE"
+      image:
+        type: url
+        data: "https://static.wikia.nocookie.net/minecraft/images/d/d4/BeaconNew.png"
+      onClick:
+       send: BuySpecialItems
+    - text: "§l§8FARMA"
+      image:
+        type: path
+        data: "textures/items/stone_hoe"
+      onClick:
+       send: BuyFarmaItems
+    - text: "§l§8INNE"
+      image:
+        type: path
+        data: "textures/items/apple_golden"
+      onClick:
+       send: BuyOtherItems       
+    - text: "§8§l» §9Cofnij §8§l«§r\n§8Kliknij aby cofnac"
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: menu
+
+  MainSell:
+    title: §l§9SPRZEDAZ
+    buttons:
+    - text: "§l§8BLOKI"
+      image:
+        type: url
+        data: "https://vignette.wikia.nocookie.net/minecraft/images/6/67/Cobblestone.png"
+      onClick:
+       send: SellBlocks
+    - text: "§l§8DROP"
+      image:
+        type: path
+        data: "textures/items/diamond"   
+      onClick:
+       send: SellDropItems
+    - text: "§l§8SPECJALNE"
+      image:
+        type: url
+        data: "https://static.wikia.nocookie.net/minecraft/images/d/d4/BeaconNew.png"
+      onClick:
+       send: SellSpecialItems
+    - text: "§l§8FARMA"
+      image:
+        type: path
+        data: "textures/items/stone_hoe"
+      onClick:
+       send: SellFarmaItems
+    - text: "§l§8INNE"
+      image:
+        type: path
+        data: "textures/items/apple_golden"
+      onClick:
+       send: SellOtherItems       
+    - text: "§8§l» §9Cofnij §8§l«§r\n§8Kliknij aby cofnac"
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: menu   
+
+  # Main Buy           
+
+  BuyBlocks:
+    title: §l§9Kupno blokow do budowania
+    buttons:
+    - text: "§8Blok trawy §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/grass_side_carried
+      onClick:
+        buy:
+          payItem: 1
+          buyItem: "2:0:32"
+    - text: "§8Cobblestone §9§l0.1§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/cobblestone
+      onClick:
+        buy:
+          payItem: 0.1
+          buyItem: "4:0:32"          
+    - text: "§8Piasek §9§l1§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/sand
+      onClick:
+
+        buy:
+          payItem: 2
+          buyItem: "12:0:32"           
+    - text: "§8Ziemia §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/dirt
+      onClick:
+
+        buy:
+          payItem: 0.1
+          buyItem: "12:0:32"        
+    - text: "§8Gruboziarnista ziemia §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/coarse_dirt
+      onClick:
+
+        buy:
+          payItem: 0.2
+          buyItem: "12:0:32"
+    - text: "§8Kloda debu §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/log_oak
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "17:0:32"
+    - text: "§8Kloda brzozy §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/log_birch
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "17:2:32"
+    - text: "§8Kloda akacji §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/log_acacia
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "162:0:32"
+    - text: "§8Kloda dzungli §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/log_jungle
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "17:3:32"
+    - text: "§8Kloda swierku §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/log_spruce
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "17:1:32"
+    - text: "§8Kloda ciemnego debu §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/log_big_oak
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "162:1:32"                                                                                                                                           
+    - text: "§8§l» §9Cofnij §8§l«§r\n§8Kliknij aby cofnac"
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: MainBuy
+
+  # Kupno dekoracji
+
+  BuyDecoration:
+    title: §l§9Kupno dekoracyji
+    buttons:
+    - text: "§8Czarny barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_black
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:16:32"
+    - text: "§8Bialy barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_white
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:19:32"
+    - text: "§8Szary barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_gray
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:8:32"
+    - text: "§8Jasno szary barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_silver
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:7:32"
+    - text: "§8Jasno niebieski barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_light_blue
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:12:32"
+    - text: "§8Niebieski barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_blue
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:18:32"
+    - text: "§8Cyjanowy barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_cyan
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:6:32"
+    - text: "§8Fioletowy barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_purple
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:5:32"
+    - text: "§8Magenta barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_magenta
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:13:32"
+    - text: "§8Rozowy barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_pink
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:9:32"
+    - text: "§8Czerwony barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_red
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:1:32"
+    - text: "§8Pomaranczowy barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_orange
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:15:32"
+    - text: "§8Zolty barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_yellow
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:11:32"
+    - text: "§8Limonkowy barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_lime
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:10:32"
+    - text: "§8Zielony barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_green
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:2:32"
+    - text: "§8Brazowy barwnik §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/dye_powder_brown_new
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "351:17:32"                                                                                                                  
+    - text: "§8§l» §9Cofnij §8§l«§r\n§8Kliknij aby cofnac"
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: MainBuy          
+
+  # Kupno specjalnych      
+
+  BuySpecialItems:
+    title: §l§9Kupno specjalnych itemow
+    buttons:
+    - text: "§8Beacon §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/beacon
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "138:0:1"
+    - text: "§8Spawner §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/mob_spawner
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "52:0:1"
+    - text: "§8Jajko krowy §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/egg_cow
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "383:11:1"
+    - text: "§8Jajko kurczaka §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/egg_chicken
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "383:10:1"
+    - text: "§8Jajko swini §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/egg_pig
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "383:12:1"
+    - text: "§8Jajko owcy §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/egg_sheep
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "383:13:1"
+    - text: "§8Jajko psa §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/egg_wolf
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "383:14:1"
+    - text: "§8Jajko krolika §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/egg_rabbit
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "383:18:1"                                                                          
+    - text: "§8§l» §9Cofnij §8§l«§r\n§8Kliknij aby cofnac"
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: MainBuy            
+
+  # Kupno przedmiotow do farmy
+
+  BuyFarmaItems:
+    title: §l§9Kupno itemow do farmy
+    buttons:
+    - text: "§8Sadzonka debu §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/sapling_oak
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "6:0:1"
+    - text: "§8Marchewka §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/carrot
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "391:0:16"
+    - text: "§8Ziemniak §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/potato
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "392:0:16"
+    - text: "§8Nasiona burakow §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/seeds_beetroot
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "458:0:16"
+    - text: "§8Nasiona melona §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/seeds_melon
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "362:0:16"
+    - text: "§8Nasiona §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/seeds
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "295:0:16"
+    - text: "§8Nasiona dyni §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/seeds_pumpkin
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "361:0:16"
+    - text: "§8Trzcina §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/reeds
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "338:0:16"
+    - text: "§8Kosci §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/bone
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "352:0:16"
+    - text: "§8Kaktus §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/bone
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "352:0:16"                                                                                                        
+    - text: "§8§l» §9Cofnij §8§l«§r\n§8Kliknij aby cofnac"
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: MainBuy      
+
+  # Kupno innych itemow
+
+  BuyOtherItems:
+    title: §l§9Kupno innych itemow
+    buttons:
+    - text: "§8Skora §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/leather
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "334:0:16"
+    - text: "§8Pyl jasnoglazu §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/glowstone_dust
+      onClick:
+
+        buy:
+          payItem: 2.0
+          buyItem: "348:0:16"              
+    - text: "§8§l» §9Cofnij §8§l«§r\n§8Kliknij aby cofnac"
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: MainBuy                
+
+
+
+
+
+
+  # Main Sell           
+
+  SellBlocks:
+    title: §l§9Sprzedaz blokow do budowania
+    buttons:
+    - text: "§8Blok trawy §9§l0.5§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/grass_side_carried
+      onClick:
+
+        sell:
+          addMoney: 0.5
+          sellItem: "2:0:32"
+    - text: "§8Cobblestone §9§l0.05§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/cobblestone
+      onClick:
+
+        sell:
+          addMoney: 0.05
+          sellItem: "4:0:32"          
+    - text: "§8Piasek §9§l1§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/sand
+      onClick:
+
+        sell:
+          addMoney: 1
+          sellItem: "12:0:32"           
+    - text: "§8Ziemia §9§l0.05§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/dirt
+      onClick:
+
+        sell:
+          addMoney: 0.05
+          sellItem: "12:0:32"        
+    - text: "§8Gruboziarnista ziemia §9§l0.1§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/coarse_dirt
+      onClick:
+
+        sell:
+          addMoney: 0.1
+          sellItem: "12:0:32"
+    - text: "§8Kloda debu §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/log_oak
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          sellItem: "17:0:32"
+    - text: "§8Kloda brzozy §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/log_birch
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          sellItem: "17:2:32"
+    - text: "§8Kloda akacji §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/log_acacia
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          sellItem: "162:0:32"
+    - text: "§8Kloda dzungli §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/log_jungle
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          sellItem: "17:3:32"
+    - text: "§8Kloda swierku §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/log_spruce
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          sellItem: "17:1:32"
+    - text: "§8Kloda ciemnego debu §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/log_big_oak
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "162:1:32"                                                                                                                                           
+    - text: "§8§l» §9Cofnij §8§l«§r\n§8Kliknij aby cofnac"
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: MainSell      
+
+  # Sprzedaz dropu
+
+  SellDropItems:
+    title: §l§9Sprzedaz dropu
+    buttons:
+    - text: "§8Diamenty §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/diamond
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "264:0:32"
+    - text: "§8Emeraldy §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/emerald
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "388:0:32"
+    - text: "§8Zloto §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/gold_ingot
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "266:0:32"
+    - text: "§8Zelazo §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/iron_ingot
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "265:0:32"                                  
+    - text: "§8Wegiel §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/coal
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "263:0:32"          
+    - text: "§8§l» §9Cofnij §8§l«§r\n§8Kliknij aby cofnac"
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: MainSell    
+
+  # Sprzedaz blokow specjalnych      
+
+  SellSpecialItems:
+    title: §l§9Sprzedaz specjalnych itemow
+    buttons:
+    - text: "§8Beacon §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/beacon
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "138:0:32"
+    - text: "§8Mob Spawner §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/mob_spawner
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "52:0:32"    
+    - text: "§8§l» §9Cofnij §8§l«§r\n§8Kliknij aby cofnac"
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: MainSell            
+
+  # Sprzedaz przedmiotow do farmy
+
+  SellFarmaItems:
+    title: §l§9Sprzedaz itemow do farmy
+    buttons:
+    - text: "§8Przenica §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/wheat
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "296:0:32"
+    - text: "§8Buraki §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/beetroot
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "457:0:32"
+    - text: "§8Ziemniaki §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/potato
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "392:0:32"
+    - text: "§8Marchewka §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/carrot
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "391:0:32"
+    - text: "§8Jablko §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/apple
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "260:0:32"
+    - text: "§8Melon §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/melon
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "360:0:32"
+    - text: "§8Dynia §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/blocks/pumpkin_top
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "86:0:32"
+    - text: "§8Kosc §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/bone
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "352:0:32"
+    - text: "§8Trzcina §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/reeds
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "338:0:32"                                                                                    
+    - text: "§8§l» §9Cofnij §8§l«§r\n§8Kliknij aby cofnac"
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: MainSell      
+
+  # Sprzedaz innych itemow
+
+  SellOtherItems:
+    title: §l§9Sprzedaz innych itemow
+    buttons:
+    - text: "§8Skora §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/leather
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "334:0:32"
+    - text: "§8Pyl jasnoglazu §9§l2§r§8zl"
+      image:
+        type: path
+        data: textures/items/glowstone_dust
+      onClick:
+
+        sell:
+          addMoney: 2.0
+          buyItem: "348:0:32"          
+    - text: "§8§l» §9Cofnij §8§l«§r\n§8Kliknij aby cofnac"
+      image:
+        type: path
+        data: textures/blocks/barrier
+      onClick:
+        send: MainSell                
+
+...

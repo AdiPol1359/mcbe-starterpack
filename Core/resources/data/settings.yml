@@ -1,0 +1,10 @@
+# PROVIDERS: mysql, sqlite3
+provider: sqlite3
+
+# MYSQL
+mysql_host: host
+mysql_user: user
+mysql_password: password
+mysql_db: db
+
+chat-per-world: false

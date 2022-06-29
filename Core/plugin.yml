@@ -1,0 +1,7 @@
+main: core\Main
+name: Core
+version: 1
+api: 3.9.8
+author: iDarkQ
+website: https://DarkMoonPE.PL
+description: Plugin napisany dla DarkMoonPE.PL!

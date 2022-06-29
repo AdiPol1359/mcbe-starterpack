@@ -1,0 +1,751 @@
+{
+    "1": {
+        "name": "§l§7Wykop §l§94 §7Drewna",
+        "type": "BREAK_BLOCK",
+        "item_id": 17,
+        "item_damage": 0,
+        "max_count": 4,
+        "reward": {
+            "name": "BRAK",
+            "type": null,
+            "id": null,
+            "damage": null,
+            "count": null
+        }
+    },
+
+    "2": {
+        "name": "§l§7Zrob §l§91 §7Drewniany kilof",
+        "type": "MAKE_ITEM",
+        "item_id": 270,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": null,
+            "id": null,
+            "damage": null,
+            "count": null
+        }
+    },
+
+    "3": {
+        "name": "§l§7Zrob §l§91 §7Kamienny kilof",
+        "type": "MAKE_ITEM",
+        "item_id": 274,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": null,
+            "id": null,
+            "damage": null,
+            "count": null
+        }
+    },
+
+    "4": {
+        "name": "§l§7Wykop §l§964 §7Cobbla",
+        "type": "DROP_ITEM",
+        "item_id": "cobble",
+        "item_damage": 0,
+        "max_count": 64,
+        "reward": {
+            "name": "§l§93 §r§7Diamenty",
+            "type": "item",
+            "id": 264,
+            "damage": 0,
+            "count": 3
+        }
+    },
+
+    "5": {
+        "name": "§l§7Zrob §l§91 §7Piecyk",
+        "type": "MAKE_ITEM",
+        "item_id": 61,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "6": {
+        "name": "§l§7Zrob §l§91 §7Skrzynke",
+        "type": "MAKE_ITEM",
+        "item_id": 54,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "7": {
+        "name": "§l§7Wykop §l§91 §7Zl",
+        "type": "DROP_ITEM",
+        "item_id": "money",
+        "item_damage": 0,
+        "max_count": 1.0,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+    
+    "8": {
+        "name": "§l§7Przejdz §l§91000 §7Kratek",
+        "type": "WALK",
+        "item_id": 0,
+        "item_damage": 0,
+        "max_count": 1000,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "9": {
+        "name": "§l§7Wykop §l§950 §7Zlota",
+        "type": "DROP_ITEM",
+        "item_id": "gold",
+        "item_damage": 0,
+        "max_count": 50,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "10": {
+        "name": "§l§7Wykop §l§9128 §7Diamenty",
+        "type": "DROP_ITEM",
+        "item_id": "diamond",
+        "item_damage": 0,
+        "max_count": 128,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "11": {
+        "name": "§l§7Wykop §l§9128 §7Emeraldy",
+        "type": "DROP_ITEM",
+        "item_id": "emerald",
+        "item_damage": 0,
+        "max_count": 128,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "12": {
+        "name": "§l§7Wykop §l§95 §7Zl",
+        "type": "DROP_ITEM",
+        "item_id": "money",
+        "item_damage": 0,
+        "max_count": 5.00,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "13": {
+        "name": "§l§7Przejdz §l§92000 §7Kratek",
+        "type": "WALK",
+        "item_id": 274,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "14": {
+        "name": "§l§7Wykop §l§9100 §7Zelaza",
+        "type": "DROP_ITEM",
+        "item_id": "iron",
+        "item_damage": 0,
+        "max_count": 100,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "15": {
+        "name": "§l§7Wykop §l§95000 §7Cobbla",
+        "type": "DROP_ITEM",
+        "item_id": "cobble",
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "16": {
+        "name": "§l§7Napisz §l§9100 §7wiadomosci",
+        "type": "WRITE",
+        "item_id": 274,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "17": {
+        "name": "§l§7Przejdz §l§910000 §7Kratek",
+        "type": "WALK",
+        "item_id": 274,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "18": {
+        "name": "§l§7Zrob §l§964 §7Zlotych jablek",
+        "type": "MAKE_ITEM",
+        "item_id": 322,
+        "item_damage": 0,
+        "max_count": 64,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "19": {
+        "name": "§l§7Zrob §l§91 §7Diamentowy kilof",
+        "type": "MAKE_ITEM",
+        "item_id": 278,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "20": {
+        "name": "§l§7Zabij §l§910 §7Stworzen",
+        "type": "KILL",
+        "item_id": 0,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "21": {
+        "name": "§l§7Napisz §l§9300 §7wiadomosci",
+        "type": "WRITE",
+        "item_id": 0,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "22": {
+        "name": "§l§7Wykop §l§9100 §7Emeraldow",
+        "type": "DROP_ITEM",
+        "item_id": "emerald",
+        "item_damage": 0,
+        "max_count": 100,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "23": {
+        "name": "§l§7Wykop §l§910000 §7Cobbla",
+        "type": "DROP_ITEM",
+        "item_id": "cobble",
+        "item_damage": 0,
+        "max_count": 10000,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "24": {
+        "name": "§l§7Wykop §l§9250 §7Diamenty",
+        "type": "DROP_ITEM",
+        "item_id": "diamond",
+        "item_damage": 0,
+        "max_count": 250,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "25": {
+        "name": "§l§7Zabij §l§9100 §7mobow",
+        "type": "KILL",
+        "item_id": 0,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+    
+    "26": {
+        "name": "§l§7Wykop §l§920 §7Zl",
+        "type": "DROP_ITEM",
+        "item_id": "money",
+        "item_damage": 0,
+        "max_count": 20.0,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "27": {
+        "name": "§l§7Przejdz §l§920000 §7Kratek",
+        "type": "WALK",
+        "item_id": 274,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "28": {
+        "name": "§l§7Wykop §l§920000 §7Cobbla",
+        "type": "DROP_ITEM",
+        "item_id": "cobble",
+        "item_damage": 0,
+        "max_count": 20000,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "29": {
+        "name": "§l§7Stworz §l§91 §7Diamentowy kilof",
+        "type": "MAKE_ITEM",
+        "item_id": 278,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "30": {
+        "name": "§l§7Wykop §l§9250 §7Emeraldow",
+        "type": "DROP_ITEM",
+        "item_id": "emerald",
+        "item_damage": 0,
+        "max_count": 250,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "31": {
+        "name": "§l§7Napisz §l§9500 §7wiadomosci",
+        "type": "WRITE",
+        "item_id": 274,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "32": {
+        "name": "§l§7Zrob §l§964 §7Zenchantowane zlote jablka",
+        "type": "MAKE_ITEM",
+        "item_id": 466,
+        "item_damage": 0,
+        "max_count": 64,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "33": {
+        "name": "§l§7Zabij §l§9200 §7Mobow",
+        "type": "KILL",
+        "item_id": 0,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "34": {
+        "name": "§l§7Wykop §l§9200 §7Zlota",
+        "type": "DROP_ITEM",
+        "item_id": "gold",
+        "item_damage": 0,
+        "max_count": 200,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "35": {
+        "name": "§l§7Wykop §l§9300 §7Wegla",
+        "type": "DROP_ITEM",
+        "item_id": "coal",
+        "item_damage": 0,
+        "max_count": 200,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "36": {
+        "name": "§l§7Napisz §l§9700 §7Wiadomosci",
+        "type": "WRITE",
+        "item_id": 274,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "37": {
+        "name": "§l§7Przejdz §l§920000 §7Kratek",
+        "type": "WALK",
+        "item_id": 274,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "38": {
+        "name": "§l§7Wykop §l§930000 §7Cobbla",
+        "type": "DROP_ITEM",
+        "item_id": "cobble",
+        "item_damage": 0,
+        "max_count": 30000,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "39": {
+        "name": "§l§7Wykop §l§9500 §7Wegla",
+        "type": "DROP_ITEM",
+        "item_id": "coal",
+        "item_damage": 0,
+        "max_count": 500,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "40": {
+        "name": "§l§7Wykop §l§950 §7Zl",
+        "type": "DROP_ITEM",
+        "item_id": "money",
+        "item_damage": 0,
+        "max_count": 50.0,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "41": {
+        "name": "§l§7Napisz §l§91000 §7Wiadomosci",
+        "type": "WRITE",
+        "item_id": 274,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "42": {
+        "name": "§l§7Zabij §l§9300 §7Mobow",
+        "type": "KILL",
+        "item_id": 0,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "43": {
+        "name": "§l§7Wykop §l§91000 §7Diamentow",
+        "type": "DROP_ITEM",
+        "item_id": "diamond",
+        "item_damage": 0,
+        "max_count": 1000,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "44": {
+        "name": "§l§7Wykop §l§91000 §7Emeraldow",
+        "type": "DROP_ITEM",
+        "item_id": "emerald",
+        "item_damage": 0,
+        "max_count": 1000,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "45": {
+        "name": "§l§7Wykop §l§91500 §7ZLOTA",
+        "type": "DROP_ITEM",
+        "item_id": "gold",
+        "item_damage": 0,
+        "max_count": 1500,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "46": {
+        "name": "§l§7Wykop §l§91500 §7Wegla",
+        "type": "DROP_ITEM",
+        "item_id": "coal",
+        "item_damage": 0,
+        "max_count": 1500,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "47": {
+        "name": "§l§7Wykop §l§91500 §7ZELAZA",
+        "type": "DROP_ITEM",
+        "item_id": "iron",
+        "item_damage": 0,
+        "max_count": 1500,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "48": {
+        "name": "§l§7Zabij §l§9500 §7Mobow",
+        "type": "KILL",
+        "item_id": 0,
+        "item_damage": 0,
+        "max_count": 1,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "49": {
+        "name": "§l§7Wykop §l§9200 §7Zl",
+        "type": "DROP_ITEM",
+        "item_id": "money",
+        "item_damage": 0,
+        "max_count": 200.0,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    },
+
+    "50": {
+        "name": "§l§7Wykop §l§9100 000 §7Cobbla",
+        "type": "DROP_ITEM",
+        "item_id": "cobble",
+        "item_damage": 0,
+        "max_count": 100000,
+        "reward": {
+            "name": "BRAK",
+            "type": "item",
+            "id": 1,
+            "damage": 0,
+            "count": 64
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "1": {
+        "name": "VIP Na miesiac",
+        "cost": "4.92",
+        "command": "pex user {nick} group add VIP 30s"
+    },
+
+    "2": {
+        "name": "SVIP Na miesiac",
+        "cost": "11.07",
+        "command": "pex user {nick} group add SVIP 30s"
+    },
+
+    "3": {
+        "name": "SPONSOR Na miesiac",
+        "cost": "20.91",
+        "command": "pex user {nick} group add SPONSOR 30s"
+    },
+
+    "4": {
+        "name": "PremiumCase x32",
+        "cost": "4.92",
+        "command": "pcase {nick} 32"
+    },
+
+    "5": {
+        "name": "PremiumCase x100",
+        "cost": "11.07",
+        "command": "pcase {nick} 100"
+    },
+
+    "6": {
+        "name": "PremiumCase x200",
+        "cost": "20.91",
+        "command": "pcase {nick} 200"
+    }
+}
