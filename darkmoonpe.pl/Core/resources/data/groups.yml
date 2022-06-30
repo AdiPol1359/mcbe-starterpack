@@ -1,0 +1,129 @@
+---
+groups:
+  GRACZ:
+    default: true
+    rank: 0
+    parents: []
+    format: §7{DISPLAYNAME} §8§l» §r§7{MESSAGE}
+    permissions: []
+  YOUTUBER:
+    default: false
+    rank: 1
+    parents: []
+    format: §c{GROUP} §7{DISPLAYNAME} §8§l» §r§7{MESSAGE}
+    permissions:
+    - core.command.feed
+    - core.command.repair
+    - core.command.enchant
+    - core.cooldown.3
+    - core.vip.caves
+    - core.link
+  VIP:
+    default: false
+    rank: 2
+    parents: []
+    format: §e{GROUP} §7{DISPLAYNAME} §8§l» §r§7{MESSAGE}
+    permissions:
+    - core.command.feed
+    - core.command.repair
+    - core.command.enchant
+    - core.cooldown.3
+    - core.vip.caves
+  SVIP:
+    default: false
+    rank: 3
+    parents: []
+    format: §a{GROUP} §7{DISPLAYNAME} §8§l» §r§7{MESSAGE}
+    permissions:
+    - core.command.feed
+    - core.command.repair
+    - core.command.enchant
+    - core.cooldown.3
+    - core.vip.caves
+    - core.svip.caves
+    - core.command.heal
+    - core.repair
+  SPONSOR:
+    default: false
+    rank: 4
+    parents: []
+    format: §b{GROUP} §7{DISPLAYNAME} §8§l» §r§7{MESSAGE}
+    permissions:
+    - core.command.feed
+    - core.command.repair
+    - core.command.enchant
+    - core.cooldown.3
+    - core.vip.caves
+    - core.svip.caves
+    - core.command.heal
+    - core.repair
+    - core.repair.all
+    - core.spam
+    - core.sponsor.caves
+  SUPPORT:
+    default: false
+    rank: 5
+    parents: []
+    format: §a§l{GROUP} §r§7{DISPLAYNAME} §8§l» §r§7{MESSAGE}
+    permissions:
+    - core.command.feed
+    - core.command.repair
+    - core.command.enchant
+    - core.cooldown.3
+    - core.vip.caves
+    - core.svip.caves
+    - core.command.heal
+    - core.repair
+    - core.repair.all
+    - core.spam
+    - core.sponsor.caves
+    - pocketmine.command.teleport
+    - core.report
+    - core.command.chat
+    - core.command.alert
+    - core.list
+    - core.command.id
+    - core.administrator
+    - core.whitelist.join
+    - core.link
+  ADMIN:
+    default: false
+    rank: 6
+    parents: []
+    format: §d§l{GROUP} §r§7{DISPLAYNAME} §8§l» §r§7{MESSAGE}
+    permissions:
+    - core.command.feed
+    - core.command.repair
+    - core.command.enchant
+    - core.cooldown.3
+    - core.vip.caves
+    - core.svip.caves
+    - core.command.heal
+    - core.repair
+    - core.repair.all
+    - core.spam
+    - core.sponsor.caves
+    - pocketmine.command.teleport
+    - core.report
+    - core.command.chat
+    - core.command.alert
+    - core.list
+    - core.command.id
+    - core.administrator
+    - core.whitelist.join
+    - core.command.zbanuj
+    - core.command.gm
+    - core.command.vanish
+    - core.command.clear
+    - core.command.setwarp
+    - core.command.delwarp
+    - core.command.bot
+    - core.link
+
+  ROOT:
+    default: false
+    rank: 7
+    parents: []
+    format: §4§l{GROUP} §r§7{DISPLAYNAME} §8§l» §r§4{MESSAGE}
+    permissions: []
+...
