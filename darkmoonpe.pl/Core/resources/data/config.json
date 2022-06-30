@@ -1,0 +1,32 @@
+{
+    "whitelist": {
+        "enabled": true
+    },
+    "wiadomosci": [
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 Wszystkie komendy serwerowe pod \u00a7l\u00a78\/\u00a79pomoc",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 Aby zarzadzac jaskinia wpisz \u00a7l\u00a78\/\u00a79caveblock",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 Strona www \u00a7l\u00a79DARKMOONPE.PL",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 Administracja pod \u00a7l\u00a78\/\u00a79administracja",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 Zglaszac graczy mozna dzieki komendzie \u00a7l\u00a78\/\u00a79report",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 Tryb serwera to \u00a7l\u00a79CAVEBLOCK",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 Discord serwera pod \u00a7l\u00a78\/\u00a79discord",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 Jest to nasza \u00a7l\u00a791 \u00a7r\u00a77edycja!",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 Wylaczyc wiadomosci bota mozna poprzez komende \u00a7l\u00a78\/\u00a79ustawienia",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 To co daja rangi premium znajdziesz pod \u00a7l\u00a78\/\u00a79rangi",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 Rekrutacja odbywa sie co okolo \u00a7l\u00a791 \u00a7r\u00a77miesiac!",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 Discord wlasciciela \u00a7l\u00a79iDarkQ#0001",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 W jaskini nie ma limitu osob!",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 W jaskini nie ma limitu osob!",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 Jesli Tracisz czyjes zaufanie, Pamietaj ze zawsze mozesz zabrac mu uprawnienia w menu jaskini!",
+        "\u00a7l\u00a78[\u00a79!\u00a78]\u00a7r\u00a77 Masz jakis pomysl? Podeslij na discordzie badz napisz administratorowi"
+    ],
+    "motd": "\u00a79\u00a7lDark\u00a77Moon.\u00a79PL",
+    "report-format": "\u00a78(\u00a79REPORT\u00a78) \u00a77\u00bb\u00a7r\u00a77 ",
+    "sprawdzarka": {
+        "x": null,
+        "y": null,
+        "z": null
+    },
+    "start-edycji": "10.12.2020 00:03:00",
+    "startedycji": true
+}

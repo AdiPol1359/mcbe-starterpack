@@ -1,0 +1,49 @@
+{
+    "1": {
+        "name": "Wiekszy drop",
+        "description": "Podczas kopania dostajesz dwa razy wiecej dropu",
+        "cost": 40
+    },
+
+    "2": {
+        "name": "Kasa za granie",
+        "description": "Co jedna godzine otrzymujesz zlotowke",
+        "cost": 20
+    },
+
+    "3": {
+        "name": "Tansze enchanty",
+        "description": "Za kazdy enchant placisz polowe mniej",
+        "cost": 30
+    },
+
+    "4": {
+        "name": "Tansze naprawy",
+        "description": "Za kazda naprawe przedmiotu placisz polowe mniej",
+        "cost": 30
+    },
+
+    "5": {
+        "name": "Dobre uzycie",
+        "description": "Podczas kopania masz 10%% szans na naprawe przedmiotu o 2 uzycia",
+        "cost": 10
+    },
+
+    "6": {
+        "name": "Ognisty kilof",
+        "description": "Podczas kopania dostajesz odrazu przepalone rudy",
+        "cost": 40
+    },
+
+    "7": {
+        "name": "Keep Inventory",
+        "description": "Podczas smierci nie tracisz itemow",
+        "cost": 50
+    },
+
+    "8": {
+        "name": "Wolny glod",
+        "description": "Gracz traci o polowe mniej glodu",
+        "cost": 20
+    }
+}
