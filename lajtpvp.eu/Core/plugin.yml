@@ -1,0 +1,5 @@
+name: Core
+main: core\Main
+version: 1.0
+api: 4.0.0
+author: iDarkQ
